@@ -23,3 +23,8 @@ services:
     command: ["-i", "./static_src/input.css", "-o", "./static/css/tailwind.css", "--watch=always"]
     volumes:
       - .:/app
+
+  observatorio:
+    volumes:
+      - ./observatorio:/app
+      - /app/node_modules

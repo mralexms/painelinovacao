@@ -61,5 +61,11 @@ services:
       migrations:
         condition: service_completed_successfully
 
+  observatorio:
+    build: ./observatorio
+    restart: unless-stopped
+    ports:
+      - "${OBSERVATORIO_PORT:-5173}:5173"
+
 volumes:
   postgres-data:

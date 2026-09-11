@@ -1,0 +1,3123 @@
+{
+  "21": [
+    {
+      "name": "Automação Industrial",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/automacao-industrial/"
+    },
+    {
+      "name": "Design de Móveis",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/design-de-moveis/"
+    },
+    {
+      "name": "Comunicação Visual",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/comunicacao-visual/"
+    },
+    {
+      "name": "Edificações",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/edificacoes/"
+    },
+    {
+      "name": "Eletrônica",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/eletronica/"
+    },
+    {
+      "name": "Eletrotécnica",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/eletrotecnica/"
+    },
+    {
+      "name": "Informática",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/informatica/"
+    },
+    {
+      "name": "Mecânica",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/mecanica/"
+    },
+    {
+      "name": "Química",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/quimica/"
+    },
+    {
+      "name": "Segurança do Trabalho",
+      "level": "Técnico de nível médio",
+      "url": "https://montecastelo.ifma.edu.br/seguranca-do-trabalho/"
+    }
+  ],
+  "22": [
+    {
+      "name": "Campus São Luís Maracanã",
+      "level": "Técnico de nível médio",
+      "url": "https://maracana.ifma.edu.br/"
+    },
+    {
+      "name": "Campus São Luís Maracanã",
+      "level": "Graduação",
+      "url": "https://maracana.ifma.edu.br/"
+    }
+  ],
+  "23": [
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Meio Ambiente (Integrado)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "Artes Visuais (Integrado)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-artes-visuais/"
+    },
+    {
+      "name": "Eventos (Integrado)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-eventos/"
+    },
+    {
+      "name": "Eventos (Subsequente)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-eventos-subsequente/"
+    },
+    {
+      "name": "Guia de Turismo (Subsequente)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-guia-de-turismo/"
+    },
+    {
+      "name": "Hospedagem (Integrado)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-hospedagem/"
+    },
+    {
+      "name": "Hospedagem (PROEJA)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-hospedagem-proeja/"
+    },
+    {
+      "name": "Manutenção de Máquinas Industriais (Integrado)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-manutencao-de-maquinas-industriais/"
+    },
+    {
+      "name": "Mecânica (Subsequente)",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-mecanica/"
+    },
+    {
+      "name": "Processos Fotográficos",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-processos-fotograficos/"
+    },
+    {
+      "name": "Licenciatura em Artes Visuais",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-de-licenciatura-em-artes-visuais/"
+    },
+    {
+      "name": "Lato Sensu em Arte, Mídia e Educação",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-de-especializacao-em-arte-midia-e-educacao/"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Meio Ambiente (Integrado)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "Artes Visuais (Integrado)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-artes-visuais/"
+    },
+    {
+      "name": "Eventos (Integrado)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-eventos/"
+    },
+    {
+      "name": "Eventos (Subsequente)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-eventos-subsequente/"
+    },
+    {
+      "name": "Guia de Turismo (Subsequente)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-guia-de-turismo/"
+    },
+    {
+      "name": "Hospedagem (Integrado)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-hospedagem/"
+    },
+    {
+      "name": "Hospedagem (PROEJA)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-hospedagem-proeja/"
+    },
+    {
+      "name": "Manutenção de Máquinas Industriais (Integrado)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-manutencao-de-maquinas-industriais/"
+    },
+    {
+      "name": "Mecânica (Subsequente)",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-mecanica/"
+    },
+    {
+      "name": "Processos Fotográficos",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-processos-fotograficos/"
+    },
+    {
+      "name": "Licenciatura em Artes Visuais",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-de-licenciatura-em-artes-visuais/"
+    },
+    {
+      "name": "Lato Sensu em Arte, Mídia e Educação",
+      "level": "Graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-de-especializacao-em-arte-midia-e-educacao/"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Meio Ambiente (Integrado)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "Artes Visuais (Integrado)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-artes-visuais/"
+    },
+    {
+      "name": "Eventos (Integrado)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-eventos/"
+    },
+    {
+      "name": "Eventos (Subsequente)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-eventos-subsequente/"
+    },
+    {
+      "name": "Guia de Turismo (Subsequente)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-guia-de-turismo/"
+    },
+    {
+      "name": "Hospedagem (Integrado)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-hospedagem/"
+    },
+    {
+      "name": "Hospedagem (PROEJA)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-hospedagem-proeja/"
+    },
+    {
+      "name": "Manutenção de Máquinas Industriais (Integrado)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-manutencao-de-maquinas-industriais/"
+    },
+    {
+      "name": "Mecânica (Subsequente)",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-mecanica/"
+    },
+    {
+      "name": "Processos Fotográficos",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-processos-fotograficos/"
+    },
+    {
+      "name": "Licenciatura em Artes Visuais",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-de-licenciatura-em-artes-visuais/"
+    },
+    {
+      "name": "Lato Sensu em Arte, Mídia e Educação",
+      "level": "Pós-graduação",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-de-especializacao-em-arte-midia-e-educacao/"
+    },
+    {
+      "name": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-artes-visuais/",
+      "level": "Técnico de nível médio",
+      "url": "https://centrohistorico.ifma.edu.br/descricao-do-curso-tecnico-em-artes-visuais/"
+    }
+  ],
+  "24": [
+    {
+      "name": "Administração",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/administracao/"
+    },
+    {
+      "name": "Agroindústria",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/agroindustria-integrado/"
+    },
+    {
+      "name": "Agroindústria (EJA)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agroindustria-proeja/"
+    },
+    {
+      "name": "Agropecuária",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agropecuaria/"
+    },
+    {
+      "name": "Agropecuária (EJA)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agropecuaria-proeja/"
+    },
+    {
+      "name": "Desenvolvimento de Sistemas",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/desenvolvimento-de-sistemas-integrado/"
+    },
+    {
+      "name": "Informática",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/informatica/"
+    },
+    {
+      "name": "Agropecuária (Pronera)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/programas-e-projetos/programa-nacional-de-educacao-na-reforma-agraria-pronera/"
+    },
+    {
+      "name": "Vendas (Eja)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/vendas-proeja/"
+    },
+    {
+      "name": "Eventos (Pronatec/MedioTec)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/tecnico-em-eventos/"
+    },
+    {
+      "name": "Informática (Pronatec/MedioTec)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/tecnico-em-informatica-concomitante"
+    },
+    {
+      "name": "Agronegócio",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agronegocio/"
+    },
+    {
+      "name": "Comércio",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/comercio/"
+    },
+    {
+      "name": "Ciências Biológicas",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/ciencias-biologicas/"
+    },
+    {
+      "name": "Formação Pedagógica",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/formacao-pedagogica/"
+    },
+    {
+      "name": "Matemática",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/matematica"
+    },
+    {
+      "name": "Química",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/quimica/"
+    },
+    {
+      "name": "Pedagogia e EPT (UAB)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/licenciatura-em-pedagogia/"
+    },
+    {
+      "name": "Ciências Biológicas (Parfor)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/acoes-e-programas/programa-nacional-de-formacao-de-professores-da-educacao-basica-parfor/"
+    },
+    {
+      "name": "Formação Pedagógica (UAB)",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/licenciatura-em-formacao-pedagogica-para-graduados-nao-licenciados/"
+    },
+    {
+      "name": "Agronomia – Pronera",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agronomia/"
+    },
+    {
+      "name": "Ciência e Tecnologia de Alimentos",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/bacharelado-em-ciencia-e-tecnologia-de-alimentos/"
+    },
+    {
+      "name": "Ciência de Computação",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/computacao/"
+    },
+    {
+      "name": "Zootecnia",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/zootecnia/"
+    },
+    {
+      "name": "Diversidade Cultural na Educação",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/diversidade-cultural/"
+    },
+    {
+      "name": "Docência para a Educação Profissional e Tecnológica",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/docencia-educacao-profissional-tecnologica/"
+    },
+    {
+      "name": "Educação e Ensino de Ciências",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/educacao-e-ensino-de-ciencias/"
+    },
+    {
+      "name": "Ensino de Ciências e Matemática",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/ensino-ciencias-matematica/"
+    },
+    {
+      "name": "Doutorado em Educação",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/pos-graduacao/doutorado-em-educacao/"
+    },
+    {
+      "name": "Saiba como estudar no IFMA",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/"
+    },
+    {
+      "name": "Processos seletivos de admissão de portador de diploma e transferências externa e interna",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/concursos-e-seletivos/?tipo=&amp;campus=24&amp;situacao=&amp;busca=graduados"
+    },
+    {
+      "name": "Em andamento",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/concursos-e-seletivos/"
+    },
+    {
+      "name": "Concluídos",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/concursos-e-seletivos/?tipo=1&amp;campus=24&amp;situacao=&amp;busca=p%C3%B3s"
+    },
+    {
+      "name": "Administração",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/administracao/"
+    },
+    {
+      "name": "Agroindústria",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/agroindustria-integrado/"
+    },
+    {
+      "name": "Agroindústria (EJA)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agroindustria-proeja/"
+    },
+    {
+      "name": "Agropecuária",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agropecuaria/"
+    },
+    {
+      "name": "Agropecuária (EJA)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agropecuaria-proeja/"
+    },
+    {
+      "name": "Desenvolvimento de Sistemas",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/desenvolvimento-de-sistemas-integrado/"
+    },
+    {
+      "name": "Informática",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/informatica/"
+    },
+    {
+      "name": "Agropecuária (Pronera)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/programas-e-projetos/programa-nacional-de-educacao-na-reforma-agraria-pronera/"
+    },
+    {
+      "name": "Vendas (Eja)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/vendas-proeja/"
+    },
+    {
+      "name": "Eventos (Pronatec/MedioTec)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/tecnico-em-eventos/"
+    },
+    {
+      "name": "Informática (Pronatec/MedioTec)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/tecnico-em-informatica-concomitante"
+    },
+    {
+      "name": "Agronegócio",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agronegocio/"
+    },
+    {
+      "name": "Comércio",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/comercio/"
+    },
+    {
+      "name": "Ciências Biológicas",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/ciencias-biologicas/"
+    },
+    {
+      "name": "Formação Pedagógica",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/formacao-pedagogica/"
+    },
+    {
+      "name": "Matemática",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/matematica"
+    },
+    {
+      "name": "Química",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/quimica/"
+    },
+    {
+      "name": "Pedagogia e EPT (UAB)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/licenciatura-em-pedagogia/"
+    },
+    {
+      "name": "Ciências Biológicas (Parfor)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/acoes-e-programas/programa-nacional-de-formacao-de-professores-da-educacao-basica-parfor/"
+    },
+    {
+      "name": "Formação Pedagógica (UAB)",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/licenciatura-em-formacao-pedagogica-para-graduados-nao-licenciados/"
+    },
+    {
+      "name": "Agronomia – Pronera",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/agronomia/"
+    },
+    {
+      "name": "Ciência e Tecnologia de Alimentos",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/bacharelado-em-ciencia-e-tecnologia-de-alimentos/"
+    },
+    {
+      "name": "Ciência de Computação",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/computacao/"
+    },
+    {
+      "name": "Zootecnia",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/zootecnia/"
+    },
+    {
+      "name": "Diversidade Cultural na Educação",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/diversidade-cultural/"
+    },
+    {
+      "name": "Docência para a Educação Profissional e Tecnológica",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/docencia-educacao-profissional-tecnologica/"
+    },
+    {
+      "name": "Educação e Ensino de Ciências",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/educacao-e-ensino-de-ciencias/"
+    },
+    {
+      "name": "Ensino de Ciências e Matemática",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/ensino-ciencias-matematica/"
+    },
+    {
+      "name": "Doutorado em Educação",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/pos-graduacao/doutorado-em-educacao/"
+    },
+    {
+      "name": "Saiba como estudar no IFMA",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/cursosofertados/"
+    },
+    {
+      "name": "Processos seletivos de admissão de portador de diploma e transferências externa e interna",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/concursos-e-seletivos/?tipo=&amp;campus=24&amp;situacao=&amp;busca=graduados"
+    },
+    {
+      "name": "Em andamento",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/concursos-e-seletivos/"
+    },
+    {
+      "name": "Concluídos",
+      "level": "Graduação",
+      "url": "https://caxias.ifma.edu.br/concursos-e-seletivos/?tipo=1&amp;campus=24&amp;situacao=&amp;busca=p%C3%B3s"
+    },
+    {
+      "name": "Certificados, diplomas e declarações",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/registro-academico/registro-academico-documentos/"
+    },
+    {
+      "name": "Horário de Aula",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/horarios/"
+    },
+    {
+      "name": "Pesquisa",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/dppgi/"
+    },
+    {
+      "name": "Portal do Ingressante",
+      "level": "Técnico de nível médio",
+      "url": "https://caxias.ifma.edu.br/aluno/portal-do-ingressante/"
+    }
+  ],
+  "25": [
+    {
+      "name": "Técnicos de nível médio",
+      "level": "Técnico de nível médio",
+      "url": "https://pinheiro.ifma.edu.br/campus-pinheiro/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Cursos Superiores",
+      "level": "Técnico de nível médio",
+      "url": "https://pinheiro.ifma.edu.br/campus-pinheiro/cursosofertados/#tab-cursos-superiores"
+    },
+    {
+      "name": "Cursos FIC",
+      "level": "Técnico de nível médio",
+      "url": "https://pinheiro.ifma.edu.br/campus-pinheiro/cursosofertados/#tab-cursos-fic"
+    },
+    {
+      "name": "Técnicos de nível médio",
+      "level": "Graduação",
+      "url": "https://pinheiro.ifma.edu.br/campus-pinheiro/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Cursos Superiores",
+      "level": "Graduação",
+      "url": "https://pinheiro.ifma.edu.br/campus-pinheiro/cursosofertados/#tab-cursos-superiores"
+    },
+    {
+      "name": "Cursos FIC",
+      "level": "Graduação",
+      "url": "https://pinheiro.ifma.edu.br/campus-pinheiro/cursosofertados/#tab-cursos-fic"
+    }
+  ],
+  "26": [
+    {
+      "name": "(continue lendo)",
+      "level": "Graduação",
+      "url": "https://barradocorda.ifma.edu.br/cursosofertados/bacharelado-em-administracao/2901-2/"
+    },
+    {
+      "name": "(continue lendo).",
+      "level": "Graduação",
+      "url": "https://barradocorda.ifma.edu.br/2913-2/"
+    },
+    {
+      "name": "PERÍODOS LETIVOS EM EXECUÇÃO",
+      "level": "Graduação",
+      "url": "https://barradocorda.ifma.edu.br/periodos-letivos-em-execucao/"
+    },
+    {
+      "name": "ATIVIDADES COMPLEMENTARES",
+      "level": "Graduação",
+      "url": "https://barradocorda.ifma.edu.br/2935-2/"
+    },
+    {
+      "name": "ESTÁGIOS",
+      "level": "Graduação",
+      "url": "https://barradocorda.ifma.edu.br/cursosofertados/bacharelado-em-administracao/estagios-referentes-ao-curso-de-bacharelado-em-administracao/"
+    }
+  ],
+  "27": [
+    {
+      "name": "Resoluções",
+      "level": "Graduação",
+      "url": "https://bacabal.ifma.edu.br/cursosofertados/licenciatura-quimica/#tab-resolucoes"
+    },
+    {
+      "name": "Colegiado",
+      "level": "Graduação",
+      "url": "https://bacabal.ifma.edu.br/cursosofertados/licenciatura-quimica/#tab-colegiado"
+    },
+    {
+      "name": "Fluxograma de procedimentos",
+      "level": "Graduação",
+      "url": "https://bacabal.ifma.edu.br/wp-content/uploads/sites/15/2021/05/Defesa-TCC.jpg"
+    },
+    {
+      "name": "Resoluções",
+      "level": "Técnico de nível médio",
+      "url": "https://bacabal.ifma.edu.br/cursosofertados/tecnologia-alimentos/#tab-resolucoes"
+    },
+    {
+      "name": "Colegiado",
+      "level": "Técnico de nível médio",
+      "url": "https://bacabal.ifma.edu.br/cursosofertados/tecnologia-alimentos/#tab-colegiado"
+    },
+    {
+      "name": "Fluxograma de procedimentos",
+      "level": "Técnico de nível médio",
+      "url": "https://bacabal.ifma.edu.br/wp-content/uploads/sites/15/2021/05/Defesa-TCC.jpg"
+    }
+  ],
+  "28": [
+    {
+      "name": "Cursos Técnicos",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Superiores",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-cursos-superiores"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-proeja"
+    },
+    {
+      "name": "Cursos FIC",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-cursos-fic"
+    },
+    {
+      "name": "EDIFICAÇÕES",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-edificacoes/"
+    },
+    {
+      "name": "ELETROMECÂNICA",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-eletromecanica/"
+    },
+    {
+      "name": "MEIO AMBIENTE",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "QUÍMICA",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-quimica/"
+    },
+    {
+      "name": "INFORMÁTICA",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-informatica/"
+    },
+    {
+      "name": "SEGURANÇA DO TRABALHO",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/tecnico-em-seguranca-do-trabalho/"
+    },
+    {
+      "name": "ELETROTÉCNICA",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-eletrotecnica/"
+    },
+    {
+      "name": "AUTOMAÇÃO INDUSTRIAL",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-automacao-industrial/"
+    },
+    {
+      "name": "ALIMENTOS",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-alimentos/"
+    },
+    {
+      "name": "Licenciatura em Física",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-superior-de-licenciatura-em-fisica/"
+    },
+    {
+      "name": "Bacharelado em Ciência da Computação",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-ciencias-da-computacao/"
+    },
+    {
+      "name": "Bacharelado em Engenharia Elétrica",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-engenharia-eletrica-industrial/"
+    },
+    {
+      "name": "Bacharelado em Engenharia Civil",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/bacharelado-em-engenharia-civil/"
+    },
+    {
+      "name": "aqui",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/calendario-academico/"
+    },
+    {
+      "name": "Horários",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/wp-content/uploads/sites/6/2026/09/TABELA-HORARIOS-COORDENADORES-DESTEC-02.png"
+    },
+    {
+      "name": "ADMINISTRAÇÃO – Proeja",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-administracao-proeja/"
+    },
+    {
+      "name": "Cursos Técnicos",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Superiores",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-cursos-superiores"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-proeja"
+    },
+    {
+      "name": "Cursos FIC",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/#tab-cursos-fic"
+    },
+    {
+      "name": "EDIFICAÇÕES",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-edificacoes/"
+    },
+    {
+      "name": "ELETROMECÂNICA",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-eletromecanica/"
+    },
+    {
+      "name": "MEIO AMBIENTE",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "QUÍMICA",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-quimica/"
+    },
+    {
+      "name": "INFORMÁTICA",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-informatica/"
+    },
+    {
+      "name": "SEGURANÇA DO TRABALHO",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/tecnico-em-seguranca-do-trabalho/"
+    },
+    {
+      "name": "ELETROTÉCNICA",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-eletrotecnica/"
+    },
+    {
+      "name": "AUTOMAÇÃO INDUSTRIAL",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-automacao-industrial/"
+    },
+    {
+      "name": "ALIMENTOS",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-tecnico-em-alimentos/"
+    },
+    {
+      "name": "Licenciatura em Física",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-superior-de-licenciatura-em-fisica/"
+    },
+    {
+      "name": "Bacharelado em Ciência da Computação",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-ciencias-da-computacao/"
+    },
+    {
+      "name": "Bacharelado em Engenharia Elétrica",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-engenharia-eletrica-industrial/"
+    },
+    {
+      "name": "Bacharelado em Engenharia Civil",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/cursosofertados/bacharelado-em-engenharia-civil/"
+    },
+    {
+      "name": "aqui",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/calendario-academico/"
+    },
+    {
+      "name": "Horários",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/wp-content/uploads/sites/6/2026/09/TABELA-HORARIOS-COORDENADORES-DESTEC-02.png"
+    },
+    {
+      "name": "ADMINISTRAÇÃO – Proeja",
+      "level": "Graduação",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-administracao-proeja/"
+    },
+    {
+      "name": "Coordenação",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-edificacoes/#tab-coordenacao"
+    },
+    {
+      "name": "Documentação",
+      "level": "Técnico de nível médio",
+      "url": "https://imperatriz.ifma.edu.br/curso-tecnico-em-edificacoes/#tab-documentacao"
+    }
+  ],
+  "29": [
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "FIC",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/#tab-fic"
+    },
+    {
+      "name": "Meio Ambiente",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/meio-ambiente/"
+    },
+    {
+      "name": "Informática",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/informatica/"
+    },
+    {
+      "name": "Eletromecânica",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/eletromecanica/"
+    },
+    {
+      "name": "Alimentos",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/alimentos/"
+    },
+    {
+      "name": "Automação Industrial",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/automacao-industrial/"
+    },
+    {
+      "name": "Florestas",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/florestas/"
+    },
+    {
+      "name": "Administração",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/administracao-proeja/"
+    },
+    {
+      "name": "Metalurgia",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/metalurgia/"
+    },
+    {
+      "name": "Química",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/quimica/"
+    },
+    {
+      "name": "Ciências Biológicas",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/ciencias-biologicas/"
+    },
+    {
+      "name": "Matemática",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/matematica/"
+    },
+    {
+      "name": "Eletricista de Sistemas de Energias Renováveis",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/eletricista-de-sistemas-de-energias-renovaveis/"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "FIC",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/#tab-fic"
+    },
+    {
+      "name": "Meio Ambiente",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/meio-ambiente/"
+    },
+    {
+      "name": "Informática",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/informatica/"
+    },
+    {
+      "name": "Eletromecânica",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/eletromecanica/"
+    },
+    {
+      "name": "Alimentos",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/alimentos/"
+    },
+    {
+      "name": "Automação Industrial",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/automacao-industrial/"
+    },
+    {
+      "name": "Florestas",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/florestas/"
+    },
+    {
+      "name": "Administração",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/administracao-proeja/"
+    },
+    {
+      "name": "Metalurgia",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/metalurgia/"
+    },
+    {
+      "name": "Química",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/quimica/"
+    },
+    {
+      "name": "Ciências Biológicas",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/ciencias-biologicas/"
+    },
+    {
+      "name": "Matemática",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/matematica/"
+    },
+    {
+      "name": "Eletricista de Sistemas de Energias Renováveis",
+      "level": "Graduação",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/eletricista-de-sistemas-de-energias-renovaveis/"
+    },
+    {
+      "name": "Detalhes",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/meio-ambiente/#tab-detalhes"
+    },
+    {
+      "name": "Documentos",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/meio-ambiente/#tab-documentos"
+    },
+    {
+      "name": "DETALHES",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/quimica/#tab-detalhes"
+    },
+    {
+      "name": "DOCUMENTOS",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/quimica/#tab-documentos"
+    },
+    {
+      "name": "ÓRGÃO/NÚCLEO",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/quimica/#tab-orgao-nucleo"
+    },
+    {
+      "name": "MURAL ONLINE DE GRADUADOS",
+      "level": "Técnico de nível médio",
+      "url": "https://acailandia.ifma.edu.br/cursosofertados/quimica/clq-graduados/"
+    }
+  ],
+  "30": [
+    {
+      "name": "Distribuição por Núcleos",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao/#tab-distribuicao-por-nucleos"
+    },
+    {
+      "name": "Distribuição por Ano",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao/#tab-distribuicao-por-ano"
+    },
+    {
+      "name": "1º ano",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao-proeja/#tab-1o-ano"
+    },
+    {
+      "name": "2º ano",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao-proeja/#tab-2o-ano"
+    },
+    {
+      "name": "3º ano",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao-proeja/#tab-3o-ano"
+    },
+    {
+      "name": "Aliny Alves Viana Carneiro",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/aliny-alves-viana-carneiro/"
+    },
+    {
+      "name": "Adriano Rocha Soares",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/adriano-rocha-soares/"
+    },
+    {
+      "name": "Ementários das disciplinas",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao-subsequente/#"
+    },
+    {
+      "name": "Danilo Leonardo Vieira da Rocha",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/danilo-leonardo-vieira-da-rocha/"
+    },
+    {
+      "name": "Francisco das Chagas Teixeira",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/francisco-das-chagas-teixeira/"
+    },
+    {
+      "name": "Baixar arquivo",
+      "level": "Técnico de nível médio",
+      "url": "https://buriticupu.ifma.edu.br/cursos/curso-tecnico-em-administracao-subsequente/#"
+    },
+    {
+      "name": "Coordenação",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-coordenacao"
+    },
+    {
+      "name": "Matriz Curricular",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-matriz-curricular"
+    },
+    {
+      "name": "Estágio Supervisionado",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-estagio-supervisionado"
+    },
+    {
+      "name": "TCC/Monografias",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-tcc-monografias"
+    },
+    {
+      "name": "Documentos e Legislação",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-documentos-e-legislacao"
+    },
+    {
+      "name": "Laboratório de Gestão",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-laboratorio-de-gestao"
+    },
+    {
+      "name": "Centro Acadêmico",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-centro-academico"
+    },
+    {
+      "name": "Empresa Júnior",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#tab-empresa-junior"
+    },
+    {
+      "name": "Prof. Me. Orleans Moraes dos Santos",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/orleans-moraes-dos-santos/"
+    },
+    {
+      "name": "Aliny Alves Viana Carneiro",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/aliny-alves-viana-carneiro/"
+    },
+    {
+      "name": "Carlos Augusto Barbosa da Silva",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/carlos-augusto-barbosa-da-silva/"
+    },
+    {
+      "name": "Elistenia da Fonseca Bezerra Teles",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/elistenia-da-fonseca-bezerra-teles/"
+    },
+    {
+      "name": "Glaucia Cristina Ferreira Silva",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/glaucia-cristina-ferreira-silva/"
+    },
+    {
+      "name": "Hugo Barros da Silva",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/hugo-barros-da-silva/"
+    },
+    {
+      "name": "Leomir Souza Costa",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/leomir-souza-costa/"
+    },
+    {
+      "name": "Orleans Moraes dos Santos",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/orleans-moraes-dos-santos/"
+    },
+    {
+      "name": "Rafael Brigido Costa",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/rafael-brigido-costa/"
+    },
+    {
+      "name": "Raimundo Soares de Araujo Neto",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/raimundo-soares-de-araujo-neto/"
+    },
+    {
+      "name": "Reginaldo Joao Assuncao Junior",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/reginaldo-joao-assuncao-junior/"
+    },
+    {
+      "name": "Rodrigo de Oliveira Moura",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/rodrigo-de-oliveira-moura/"
+    },
+    {
+      "name": "Tadeu Junior de Lima Nascimento",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/tadeu-junior-de-lima-nascimento/"
+    },
+    {
+      "name": "Tatyanne Laissa Sousa dos Santos",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/tatyanne-laissa-sousa-dos-santos/"
+    },
+    {
+      "name": "Thiago Cavalcanti do Nascimento",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/corpo-docente/thiago-cavalcanti-do-nascimento/"
+    },
+    {
+      "name": "Baixar",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/bacharelado-em-administracao/#"
+    },
+    {
+      "name": "Acessar",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/departamento-de-extensao-e-relacoes-institucionais-deri/parcerias/"
+    },
+    {
+      "name": "Laboratório de Biologia",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/licenciatura-em-ciencias-biologicas/#tab-laboratorio-de-biologia"
+    },
+    {
+      "name": "Laboratório de Matemática",
+      "level": "Graduação",
+      "url": "https://buriticupu.ifma.edu.br/cursos/licenciatura-em-matematica/#tab-laboratorio-de-matematica"
+    }
+  ],
+  "31": [
+    {
+      "name": "1º Módulo",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnico-alimentos/#tab-1o-modulo"
+    },
+    {
+      "name": "2º Módulo",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnico-alimentos/#tab-2o-modulo"
+    },
+    {
+      "name": "3º Módulo",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnico-alimentos/#tab-3o-modulo"
+    },
+    {
+      "name": "1º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/curso-tecnico-em-informatica-subsequente/#tab-1o-periodo"
+    },
+    {
+      "name": "2 º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/curso-tecnico-em-informatica-subsequente/#tab-2o-periodo"
+    },
+    {
+      "name": "3º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/curso-tecnico-em-informatica-subsequente/#tab-3o-periodo"
+    },
+    {
+      "name": "1º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-1o-periodo"
+    },
+    {
+      "name": "2º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-2o-periodo"
+    },
+    {
+      "name": "3º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-3o-periodo"
+    },
+    {
+      "name": "4º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-4o-periodo"
+    },
+    {
+      "name": "5º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-5o-periodo"
+    },
+    {
+      "name": "6º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-6o-periodo"
+    },
+    {
+      "name": "7º período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-7o-periodo"
+    },
+    {
+      "name": "Membros",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-membros"
+    },
+    {
+      "name": "Atas de Reuniões",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-atas-de-reunioes"
+    },
+    {
+      "name": "Data das Reuniões",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-data-das-reunioes"
+    },
+    {
+      "name": "Documentos",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-matematica/#tab-documentos"
+    },
+    {
+      "name": "1º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-1o-periodo"
+    },
+    {
+      "name": "2º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-2o-periodo"
+    },
+    {
+      "name": "3º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-3o-periodo"
+    },
+    {
+      "name": "4º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-4o-periodo"
+    },
+    {
+      "name": "5º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-5o-periodo"
+    },
+    {
+      "name": "6º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-6o-periodo"
+    },
+    {
+      "name": "7º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-7o-periodo"
+    },
+    {
+      "name": "8º Período",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-8o-periodo"
+    },
+    {
+      "name": "Optativas",
+      "level": "Graduação",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/licenciatura-em-quimica/#tab-optativas"
+    },
+    {
+      "name": "2º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-2o-periodo"
+    },
+    {
+      "name": "4º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-4o-periodo"
+    },
+    {
+      "name": "5º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-5o-periodo"
+    },
+    {
+      "name": "6º Período",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-6o-periodo"
+    },
+    {
+      "name": "Estágio Curricular",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-estagio-curricular"
+    },
+    {
+      "name": "Disciplinas Optativas",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-disciplinas-optativas"
+    },
+    {
+      "name": "Membros",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-membros"
+    },
+    {
+      "name": "Atas de Reuniões",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-atas-de-reunioes"
+    },
+    {
+      "name": "Data das Reuniões",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-data-das-reunioes"
+    },
+    {
+      "name": "Documentos",
+      "level": "Técnico de nível médio",
+      "url": "https://zedoca.ifma.edu.br/cursosoferecidos/tecnologia-em-alimentos/#tab-documentos"
+    }
+  ],
+  "32": [],
+  "33": [
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-pos-graduacao"
+    },
+    {
+      "name": "Técnico em Agroindústria",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agroindustria/"
+    },
+    {
+      "name": "Técnico em Agropecuária",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agropecuaria/"
+    },
+    {
+      "name": "Técnico em Informática",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-informatica/"
+    },
+    {
+      "name": "Técnico em Meio Ambiente",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "Técnico em Agroindústria (EJA)",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agroindustria-eja/"
+    },
+    {
+      "name": "Técnico em Comércio (EJA)",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-comercio-eja/"
+    },
+    {
+      "name": "Técnico em Suporte e Manutenção em Informática (EJA)",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnico-em-suporte-e-manutencao-em-informatica-eja/"
+    },
+    {
+      "name": "Bacharelado em Agronomia",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/bacharelado-em-agronomia/"
+    },
+    {
+      "name": "Licenciatura em Ciências Agrárias",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-ciencias-agrarias/"
+    },
+    {
+      "name": "Licenciatura em Ciências Biológicas",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-ciencias-biologicas/"
+    },
+    {
+      "name": "Licenciatura em Matemática",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-matematica/"
+    },
+    {
+      "name": "Licenciatura em Química",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-quimica/"
+    },
+    {
+      "name": "Tecnologia em Alimentos",
+      "level": "Técnico de nível médio",
+      "url": "https://codo.ifma.edu.br/tecnologia-em-alimentos/"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-pos-graduacao"
+    },
+    {
+      "name": "Técnico em Agroindústria",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agroindustria/"
+    },
+    {
+      "name": "Técnico em Agropecuária",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agropecuaria/"
+    },
+    {
+      "name": "Técnico em Informática",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-informatica/"
+    },
+    {
+      "name": "Técnico em Meio Ambiente",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "Técnico em Agroindústria (EJA)",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agroindustria-eja/"
+    },
+    {
+      "name": "Técnico em Comércio (EJA)",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-comercio-eja/"
+    },
+    {
+      "name": "Técnico em Suporte e Manutenção em Informática (EJA)",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-suporte-e-manutencao-em-informatica-eja/"
+    },
+    {
+      "name": "Bacharelado em Agronomia",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/bacharelado-em-agronomia/"
+    },
+    {
+      "name": "Licenciatura em Ciências Agrárias",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-ciencias-agrarias/"
+    },
+    {
+      "name": "Licenciatura em Ciências Biológicas",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-ciencias-biologicas/"
+    },
+    {
+      "name": "Licenciatura em Matemática",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-matematica/"
+    },
+    {
+      "name": "Licenciatura em Química",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-quimica/"
+    },
+    {
+      "name": "Tecnologia em Alimentos",
+      "level": "Graduação",
+      "url": "https://codo.ifma.edu.br/tecnologia-em-alimentos/"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/cursos/#tab-pos-graduacao"
+    },
+    {
+      "name": "Técnico em Agroindústria",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agroindustria/"
+    },
+    {
+      "name": "Técnico em Agropecuária",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agropecuaria/"
+    },
+    {
+      "name": "Técnico em Informática",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-informatica/"
+    },
+    {
+      "name": "Técnico em Meio Ambiente",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-meio-ambiente/"
+    },
+    {
+      "name": "Técnico em Agroindústria (EJA)",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-agroindustria-eja/"
+    },
+    {
+      "name": "Técnico em Comércio (EJA)",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-comercio-eja/"
+    },
+    {
+      "name": "Técnico em Suporte e Manutenção em Informática (EJA)",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnico-em-suporte-e-manutencao-em-informatica-eja/"
+    },
+    {
+      "name": "Bacharelado em Agronomia",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/bacharelado-em-agronomia/"
+    },
+    {
+      "name": "Licenciatura em Ciências Agrárias",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-ciencias-agrarias/"
+    },
+    {
+      "name": "Licenciatura em Ciências Biológicas",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-ciencias-biologicas/"
+    },
+    {
+      "name": "Licenciatura em Matemática",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-matematica/"
+    },
+    {
+      "name": "Licenciatura em Química",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/licenciatura-em-quimica/"
+    },
+    {
+      "name": "Tecnologia em Alimentos",
+      "level": "Pós-graduação",
+      "url": "https://codo.ifma.edu.br/tecnologia-em-alimentos/"
+    }
+  ],
+  "34": [
+    {
+      "name": "Matriz Curricular",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/wp-content/uploads/sites/25/2019/12/Matriz-Curricular-Curso-de-Fi%CC%81sica.jpg"
+    },
+    {
+      "name": "1º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-1o-semestre"
+    },
+    {
+      "name": "2º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-2o-semestre"
+    },
+    {
+      "name": "3º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-3o-semestre"
+    },
+    {
+      "name": "4º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-4o-semestre"
+    },
+    {
+      "name": "5º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-5o-semestre"
+    },
+    {
+      "name": "6º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-6o-semestre"
+    },
+    {
+      "name": "7º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-7o-semestre"
+    },
+    {
+      "name": "8º Semestre",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-8o-semestre"
+    },
+    {
+      "name": "2021.1",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-2021-1"
+    },
+    {
+      "name": "2021.2",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-2021-2"
+    },
+    {
+      "name": "2022.1",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-2022-1"
+    },
+    {
+      "name": "2022.2",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-2022-2"
+    },
+    {
+      "name": "Horários de Aulas – Lic. em Física- 2022.2",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/wp-content/uploads/sites/25/2022/09/Horario-Fisica-2022.2.jpg"
+    },
+    {
+      "name": "Membros",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-membros"
+    },
+    {
+      "name": "Atas de Reuniões",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-atas-de-reunioes"
+    },
+    {
+      "name": "Documentos",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-documentos"
+    },
+    {
+      "name": "Normas",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-normas"
+    },
+    {
+      "name": "Outros Documentos",
+      "level": "Graduação",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-outros-documentos"
+    },
+    {
+      "name": "2020",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2020"
+    },
+    {
+      "name": "2021",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2021"
+    },
+    {
+      "name": "2022",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2022"
+    },
+    {
+      "name": "2023",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2023"
+    },
+    {
+      "name": "2024",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2024"
+    },
+    {
+      "name": "2025",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2025"
+    },
+    {
+      "name": "2026",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2026"
+    },
+    {
+      "name": "1º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-1o-semestre"
+    },
+    {
+      "name": "2º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2o-semestre"
+    },
+    {
+      "name": "3º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-3o-semestre"
+    },
+    {
+      "name": "4º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-4o-semestre"
+    },
+    {
+      "name": "5º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-5o-semestre"
+    },
+    {
+      "name": "6º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-6o-semestre"
+    },
+    {
+      "name": "2021.1",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2021-1"
+    },
+    {
+      "name": "2021.2",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2021-2"
+    },
+    {
+      "name": "2022.1",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2022-1"
+    },
+    {
+      "name": "2022.2",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2022-2"
+    },
+    {
+      "name": "2023.1",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2023-1"
+    },
+    {
+      "name": "2023.2",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2023-2"
+    },
+    {
+      "name": "2024.1",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2024-1"
+    },
+    {
+      "name": "2026.1",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2026-1"
+    },
+    {
+      "name": "2026.2",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-2026-2"
+    },
+    {
+      "name": "Membros",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-membros"
+    },
+    {
+      "name": "Atas de Reuniões",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-atas-de-reunioes"
+    },
+    {
+      "name": "Documentos",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-documentos"
+    },
+    {
+      "name": "Normas",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-normas"
+    },
+    {
+      "name": "Outros Documentos",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/cursosofertados/tecnologia-em-redes-de-computadores/#tab-outros-documentos"
+    },
+    {
+      "name": "Baixar",
+      "level": "Técnico de nível médio",
+      "url": "https://sjpatos.ifma.edu.br/wp-content/uploads/sites/25/2022/09/Modelo-Monografia-IFMA.docx"
+    }
+  ],
+  "35": [],
+  "36": [
+    {
+      "name": "Informações",
+      "level": "Graduação",
+      "url": "https://alcantara.ifma.edu.br/cursosofertados/graduacao-tecnologica-em-gestao-de-turismo/#tab-informacoes"
+    },
+    {
+      "name": "Matriz Curricular",
+      "level": "Graduação",
+      "url": "https://alcantara.ifma.edu.br/cursosofertados/graduacao-tecnologica-em-gestao-de-turismo/#tab-matriz-curricular"
+    },
+    {
+      "name": "Legislação",
+      "level": "Graduação",
+      "url": "https://alcantara.ifma.edu.br/cursosofertados/graduacao-tecnologica-em-gestao-de-turismo/#tab-legislacao"
+    },
+    {
+      "name": "Monografias",
+      "level": "Graduação",
+      "url": "https://alcantara.ifma.edu.br/cursosofertados/graduacao-tecnologica-em-gestao-de-turismo/#tab-monografias"
+    },
+    {
+      "name": "Documentos",
+      "level": "Graduação",
+      "url": "https://alcantara.ifma.edu.br/cursosofertados/graduacao-tecnologica-em-gestao-de-turismo/#tab-documentos"
+    },
+    {
+      "name": "Template Monografia 2021 em docx",
+      "level": "Graduação",
+      "url": "https://alcantara.ifma.edu.br/wp-content/uploads/sites/7/2021/08/Template_Monografia_2021-1.docx"
+    }
+  ],
+  "37": [
+    {
+      "name": "Cursos Técnicos",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Técnicos Integrados ao Ensino Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos-integrados-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Técnicos Subsequentes ao Ensino Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos-subsequentes-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos de Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-de-graduacao"
+    },
+    {
+      "name": "Cursos de Pós-graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-de-pos-graduacao"
+    },
+    {
+      "name": "Cursos Técnicos",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Técnicos Integrados ao Ensino Médio",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos-integrados-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Técnicos Subsequentes ao Ensino Médio",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos-subsequentes-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos de Graduação",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-de-graduacao"
+    },
+    {
+      "name": "Cursos de Pós-graduação",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-de-pos-graduacao"
+    },
+    {
+      "name": "Cursos Técnicos",
+      "level": "Pós-graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Técnicos Integrados ao Ensino Médio",
+      "level": "Pós-graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos-integrados-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Técnicos Subsequentes ao Ensino Médio",
+      "level": "Pós-graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos-subsequentes-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos de Graduação",
+      "level": "Pós-graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-de-graduacao"
+    },
+    {
+      "name": "Cursos de Pós-graduação",
+      "level": "Pós-graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/#tab-cursos-de-pos-graduacao"
+    },
+    {
+      "name": "1º ano",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/aquicultura-integrado/#tab-1o-ano"
+    },
+    {
+      "name": "2º ano",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/aquicultura-integrado/#tab-2o-ano"
+    },
+    {
+      "name": "3º ano",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/aquicultura-integrado/#tab-3o-ano"
+    },
+    {
+      "name": "Módulo 1",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agropecuaria-subsequente/#tab-modulo-1"
+    },
+    {
+      "name": "Módulo 2",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agropecuaria-subsequente/#tab-modulo-2"
+    },
+    {
+      "name": "Módulo 3",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agropecuaria-subsequente/#tab-modulo-3"
+    },
+    {
+      "name": "https://srmangabeiras.ifma.edu.br/concursos-e-seletivos",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/concursos-e-seletivos"
+    },
+    {
+      "name": "1º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/geoprocessamento-subsequente/#tab-1o-semestre"
+    },
+    {
+      "name": "2º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/geoprocessamento-subsequente/#tab-2o-semestre"
+    },
+    {
+      "name": "3º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/geoprocessamento-subsequente/#tab-3o-semestre"
+    },
+    {
+      "name": "https://srmangabeiras.ifma.edu.br/concursos-e-seletivos/",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/concursos-e-seletivos/"
+    },
+    {
+      "name": "4º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-4o-semestre"
+    },
+    {
+      "name": "5º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-5o-semestre"
+    },
+    {
+      "name": "6º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-6o-semestre"
+    },
+    {
+      "name": "7º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-7o-semestre"
+    },
+    {
+      "name": "8º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-8o-semestre"
+    },
+    {
+      "name": "9º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-9o-semestre"
+    },
+    {
+      "name": "10º Semestre",
+      "level": "Técnico de nível médio",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/agronomia/#tab-10o-semestre"
+    },
+    {
+      "name": "1º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-1o-semestre"
+    },
+    {
+      "name": "2º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-2o-semestre"
+    },
+    {
+      "name": "3º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-3o-semestre"
+    },
+    {
+      "name": "4º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-4o-semestre"
+    },
+    {
+      "name": "5º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-5o-semestre"
+    },
+    {
+      "name": "6º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-6o-semestre"
+    },
+    {
+      "name": "7º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-7o-semestre"
+    },
+    {
+      "name": "8º Semestre",
+      "level": "Graduação",
+      "url": "https://srmangabeiras.ifma.edu.br/cursosofertados/licenciatura-em-ciencias-biologicas/#tab-8o-semestre"
+    }
+  ],
+  "38": [
+    {
+      "name": "TÉCNICO INTEGRADO",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-tecnico-integrado"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-proeja"
+    },
+    {
+      "name": "Técnico Subsequente",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-tecnico-subsequente"
+    },
+    {
+      "name": "Ensino Superior",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-ensino-superior"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-pos-graduacao"
+    },
+    {
+      "name": "Técnico em Administração",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/administracao-integrada/"
+    },
+    {
+      "name": "Curso Técnico em Informática",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/curso-tecnico-em-informatica/"
+    },
+    {
+      "name": "Ciencias Biológicas",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/ciencias-biologicas-2/"
+    },
+    {
+      "name": "Ciencias Biológicas – EAD",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/ciencias-biologicas-2/"
+    },
+    {
+      "name": "Tecnologia em Gestão Comercial",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/tecnologia-em-gestao-comercial/"
+    },
+    {
+      "name": "Tecnologia em Sistemas Para a Internet",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/sistemas-para-internet/"
+    },
+    {
+      "name": "TÉCNICO INTEGRADO",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-tecnico-integrado"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-proeja"
+    },
+    {
+      "name": "Técnico Subsequente",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-tecnico-subsequente"
+    },
+    {
+      "name": "Ensino Superior",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-ensino-superior"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-pos-graduacao"
+    },
+    {
+      "name": "Técnico em Administração",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/administracao-integrada/"
+    },
+    {
+      "name": "Curso Técnico em Informática",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/curso-tecnico-em-informatica/"
+    },
+    {
+      "name": "Ciencias Biológicas",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/ciencias-biologicas-2/"
+    },
+    {
+      "name": "Ciencias Biológicas – EAD",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/ciencias-biologicas-2/"
+    },
+    {
+      "name": "Tecnologia em Gestão Comercial",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/tecnologia-em-gestao-comercial/"
+    },
+    {
+      "name": "Tecnologia em Sistemas Para a Internet",
+      "level": "Graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/sistemas-para-internet/"
+    },
+    {
+      "name": "TÉCNICO INTEGRADO",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-tecnico-integrado"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-proeja"
+    },
+    {
+      "name": "Técnico Subsequente",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-tecnico-subsequente"
+    },
+    {
+      "name": "Ensino Superior",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-ensino-superior"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/#tab-pos-graduacao"
+    },
+    {
+      "name": "Técnico em Administração",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/administracao-integrada/"
+    },
+    {
+      "name": "Curso Técnico em Informática",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/curso-tecnico-em-informatica/"
+    },
+    {
+      "name": "Ciencias Biológicas",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/ciencias-biologicas-2/"
+    },
+    {
+      "name": "Ciencias Biológicas – EAD",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/ciencias-biologicas-2/"
+    },
+    {
+      "name": "Tecnologia em Gestão Comercial",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/tecnologia-em-gestao-comercial/"
+    },
+    {
+      "name": "Tecnologia em Sistemas Para a Internet",
+      "level": "Pós-graduação",
+      "url": "https://timon.ifma.edu.br/cursosoferecidos/sistemas-para-internet/"
+    },
+    {
+      "name": "Atividades complementares PPC 2014",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/12.-Atividades-complementares-PPC-2014.png"
+    },
+    {
+      "name": "Mapa de salas",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/13.-Mapa-de-salas.jpeg"
+    },
+    {
+      "name": "2023.1",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/19.-Horarios-2023.1-turmas-Biologia.jpg"
+    },
+    {
+      "name": "Resolução CONSUP 042/2012, de 03 de Julho de 2012",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2021/04/Matriz-Biologia-Timon-Atual.xlsx"
+    },
+    {
+      "name": "Declaração de autenticidade",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/41.-DECLARACAO-DE-AUTENTICIDADE-2.docx"
+    },
+    {
+      "name": "Declaração de correção gramatical",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/42.-DECLARACAO-DE-CORRECAO-GRAMATICAL.docx"
+    },
+    {
+      "name": "Ata de defesa",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/43.-ATA-DE-DEFESA-presencial.docx"
+    },
+    {
+      "name": "Ficha de avaliação",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/43.-FICHA-DE-AVALIACAO.docx"
+    },
+    {
+      "name": "Termo de entrega de TCC",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2023/05/47.-TERMO-ENTREGA-DE-TCC-BIB-AURELIO-DE-BRITO.docx"
+    },
+    {
+      "name": "https://timon.ifma.edu.br/",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/"
+    },
+    {
+      "name": "Termo de Entrega da Versão Definitiva TCC",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2025/09/Termo-de-Entrega-da-Versa%CC%83o-Definitiva-TCC.docx"
+    },
+    {
+      "name": "Download",
+      "level": "Técnico de nível médio",
+      "url": "https://timon.ifma.edu.br/wp-content/uploads/sites/22/2024/10/ANEXO-12-MODELO-PROJETO-TCC.docx"
+    }
+  ],
+  "39": [
+    {
+      "name": "INTEGRADO",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-integrado"
+    },
+    {
+      "name": "SUBSEQUENTE",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-subsequente"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-proeja"
+    },
+    {
+      "name": "GRADUAÇÃO",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Técnico em Administração",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-administracao/"
+    },
+    {
+      "name": "Técnico em Automação Industrial",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-automacao-industrial"
+    },
+    {
+      "name": "Técnico em Informática",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/?page_id=3513&amp;preview=true"
+    },
+    {
+      "name": "Técnico em Automação Industrial (Subsequente)",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-automacao-industrial"
+    },
+    {
+      "name": "Técnico em Administração – PROEJA",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-automacao-industrial"
+    },
+    {
+      "name": "Bacharelado em Administração",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/"
+    },
+    {
+      "name": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/ads/"
+    },
+    {
+      "name": "INTEGRADO",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-integrado"
+    },
+    {
+      "name": "SUBSEQUENTE",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-subsequente"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-proeja"
+    },
+    {
+      "name": "GRADUAÇÃO",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Técnico em Administração",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-administracao/"
+    },
+    {
+      "name": "Técnico em Automação Industrial",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-automacao-industrial"
+    },
+    {
+      "name": "Técnico em Informática",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/?page_id=3513&amp;preview=true"
+    },
+    {
+      "name": "Técnico em Automação Industrial (Subsequente)",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-automacao-industrial"
+    },
+    {
+      "name": "Técnico em Administração – PROEJA",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-tecnico-integrado-em-automacao-industrial"
+    },
+    {
+      "name": "Bacharelado em Administração",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/"
+    },
+    {
+      "name": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/ads/"
+    },
+    {
+      "name": "Coordenação",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/2739-2/"
+    },
+    {
+      "name": "Horários e aulas",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/turmas/"
+    },
+    {
+      "name": "PIT e RIT",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/pit-e-rit/"
+    },
+    {
+      "name": "NDE",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/nucleo-docente-estruturante-nde/"
+    },
+    {
+      "name": "Colegiado",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/colegiado/"
+    },
+    {
+      "name": "Notícias",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/noticias-do-curso-bacharelado-em-administracao/"
+    },
+    {
+      "name": "Documentos e Legislação",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/legislacao-do-criso-bacharelado-em-administracao/"
+    },
+    {
+      "name": "Estágio Supervisionado",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/curso-superior-de-bacharelado-em-administracao/estagio-supervisionado/"
+    },
+    {
+      "name": "Trabalho de Conclusão de Curso – TCC",
+      "level": "Graduação",
+      "url": "https://coelhoneto.ifma.edu.br/trabalho-de-conclusao-de-curso-tcc/"
+    },
+    {
+      "name": "2024",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/ads/#tab-2024"
+    },
+    {
+      "name": "2025",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/ads/#tab-2025"
+    },
+    {
+      "name": "2026",
+      "level": "Técnico de nível médio",
+      "url": "https://coelhoneto.ifma.edu.br/cursosofertados/ads/#tab-2026"
+    }
+  ],
+  "40": [
+    {
+      "name": "Administração",
+      "level": "Técnicos de nível médio",
+      "url": "https://grajau.ifma.edu.br/curso-tecnico-em-administracao/"
+    },
+    {
+      "name": "Agropecuária",
+      "level": "Técnicos de nível médio",
+      "url": "https://grajau.ifma.edu.br/curso-tecnico-em-agronegocio-2/"
+    },
+    {
+      "name": "Edificação",
+      "level": "Técnicos de nível médio",
+      "url": "https://grajau.ifma.edu.br/curso-tecnico-em-edificacao/"
+    },
+    {
+      "name": "Informática",
+      "level": "Técnicos de nível médio",
+      "url": "https://grajau.ifma.edu.br/curso-tecnico-em-informatica/"
+    },
+    {
+      "name": "Marketing",
+      "level": "Técnicos de nível médio",
+      "url": "https://grajau.ifma.edu.br/curso-tecnico-em-marketing/"
+    },
+    {
+      "name": "Análise e Desenvolvimento de Sistemas (ADS)",
+      "level": "Graduação",
+      "url": "https://grajau.ifma.edu.br/curso-superior-em-analise-e-desenvolvimento-de-sistemas/"
+    },
+    {
+      "name": "Tecnologia em Processos Gerenciais (TPG)",
+      "level": "Graduação",
+      "url": "https://grajau.ifma.edu.br/curso-superior-em-tecnologia-em-processos-gerenciais/"
+    },
+    {
+      "name": "Gestão e Desenvolvimento Regional",
+      "level": "Pós-graduação",
+      "url": "https://grajau.ifma.edu.br/gdr"
+    }
+  ],
+  "41": [
+    {
+      "name": "Contextualização",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-contextualizacao"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Eletromecânica",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/eletromecanica/"
+    },
+    {
+      "name": "Petróleo e Gás",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/petroleo-e-gas/"
+    },
+    {
+      "name": "Licenciatura em Física",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/licenciatura-em-fisica/"
+    },
+    {
+      "name": "Pós-Graduação em Informática na Educação – Turma 2022.2",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/informatica-na-educacao-turma-2022/"
+    },
+    {
+      "name": "Pós-Graduação em Informática na Educação – Turma 2024.2",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/informatica-na-educacao-turma-2024/"
+    },
+    {
+      "name": "Contextualização",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-contextualizacao"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Eletromecânica",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/eletromecanica/"
+    },
+    {
+      "name": "Petróleo e Gás",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/petroleo-e-gas/"
+    },
+    {
+      "name": "Licenciatura em Física",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/licenciatura-em-fisica/"
+    },
+    {
+      "name": "Pós-Graduação em Informática na Educação – Turma 2022.2",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/informatica-na-educacao-turma-2022/"
+    },
+    {
+      "name": "Pós-Graduação em Informática na Educação – Turma 2024.2",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/informatica-na-educacao-turma-2024/"
+    },
+    {
+      "name": "Contextualização",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-contextualizacao"
+    },
+    {
+      "name": "Técnicos de Nível Médio",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-tecnicos-de-nivel-medio"
+    },
+    {
+      "name": "Graduação",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-graduacao"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Eletromecânica",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/eletromecanica/"
+    },
+    {
+      "name": "Petróleo e Gás",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/petroleo-e-gas/"
+    },
+    {
+      "name": "Licenciatura em Física",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/licenciatura-em-fisica/"
+    },
+    {
+      "name": "Pós-Graduação em Informática na Educação – Turma 2022.2",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/informatica-na-educacao-turma-2022/"
+    },
+    {
+      "name": "Pós-Graduação em Informática na Educação – Turma 2024.2",
+      "level": "Pós-graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/informatica-na-educacao-turma-2024/"
+    },
+    {
+      "name": "Detalhes",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-detalhes"
+    },
+    {
+      "name": "Documentos",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-documentos"
+    },
+    {
+      "name": "Órgão/Núcleo",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/cursosofertados/licenciatura-em-fisica/#tab-orgao-nucleo"
+    },
+    {
+      "name": "Edital 11/2022 GAB-PED – Seleção de Monitores para o curso de graduação em Física",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/concursos-e-seletivos/?id=16432"
+    },
+    {
+      "name": "Edital 02/2023 GAB-PED – Seleção de Monitores para o curso de graduação em Física",
+      "level": "Graduação",
+      "url": "https://pedreiras.ifma.edu.br/concursos-e-seletivos/?id=17002"
+    },
+    {
+      "name": "clicando aqui.",
+      "level": "Técnico de nível médio",
+      "url": "https://pedreiras.ifma.edu.br/"
+    }
+  ],
+  "45": [],
+  "46": [
+    {
+      "name": "Cursos Técnicos",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Integrados ao Ensino Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-integrados-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Concomitantes ao Ensino Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-concomitantes-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Subsequentes ao Ensino Médio",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-subsequentes-ao-ensino-medio"
+    },
+    {
+      "name": "Tecnólogo",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-tecnologo"
+    },
+    {
+      "name": "Curso de Pós-graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-curso-de-pos-graduacao"
+    },
+    {
+      "name": "Graduação Tecnológica em Processos Gerenciais",
+      "level": "Técnico de nível médio",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/"
+    },
+    {
+      "name": "Cursos Técnicos",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Integrados ao Ensino Médio",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-integrados-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Concomitantes ao Ensino Médio",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-concomitantes-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Subsequentes ao Ensino Médio",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-subsequentes-ao-ensino-medio"
+    },
+    {
+      "name": "Tecnólogo",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-tecnologo"
+    },
+    {
+      "name": "Curso de Pós-graduação",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-curso-de-pos-graduacao"
+    },
+    {
+      "name": "Graduação Tecnológica em Processos Gerenciais",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/"
+    },
+    {
+      "name": "Cursos Técnicos",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-tecnicos"
+    },
+    {
+      "name": "Cursos Integrados ao Ensino Médio",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-integrados-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Concomitantes ao Ensino Médio",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-concomitantes-ao-ensino-medio"
+    },
+    {
+      "name": "Cursos Subsequentes ao Ensino Médio",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-cursos-subsequentes-ao-ensino-medio"
+    },
+    {
+      "name": "Tecnólogo",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-tecnologo"
+    },
+    {
+      "name": "Curso de Pós-graduação",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/cursosofertados/#tab-curso-de-pos-graduacao"
+    },
+    {
+      "name": "Graduação Tecnológica em Processos Gerenciais",
+      "level": "Pós-graduação",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/"
+    },
+    {
+      "name": "Informações Gerais",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/#tab-informacoes-gerais"
+    },
+    {
+      "name": "Coordenação",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/#tab-coordenacao"
+    },
+    {
+      "name": "Documentação",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/#tab-documentacao"
+    },
+    {
+      "name": "Trabalho de Conclusão de Curso-TCC",
+      "level": "Graduação",
+      "url": "https://sjribamar.ifma.edu.br/curso-superior-tecnologo-em-processos-gerenciais/#tab-trabalho-de-conclusao-de-curso-tcc"
+    }
+  ],
+  "47": [
+    {
+      "name": "#PartiuIF",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-partiuif"
+    },
+    {
+      "name": "FIC EAD",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-fic-ead"
+    },
+    {
+      "name": "FIC Presencial",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-fic-presencial"
+    },
+    {
+      "name": "INTEGRADO",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-integrado"
+    },
+    {
+      "name": "SUBSEQUENTE",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-subsequente"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-proeja"
+    },
+    {
+      "name": "GRADUAÇÃO",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-graduacao"
+    },
+    {
+      "name": "PÓS-GRADUAÇÃO",
+      "level": "Técnico de nível médio",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-pos-graduacao"
+    },
+    {
+      "name": "#PartiuIF",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-partiuif"
+    },
+    {
+      "name": "FIC EAD",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-fic-ead"
+    },
+    {
+      "name": "FIC Presencial",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-fic-presencial"
+    },
+    {
+      "name": "INTEGRADO",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-integrado"
+    },
+    {
+      "name": "SUBSEQUENTE",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-subsequente"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-proeja"
+    },
+    {
+      "name": "GRADUAÇÃO",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-graduacao"
+    },
+    {
+      "name": "PÓS-GRADUAÇÃO",
+      "level": "Graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-pos-graduacao"
+    },
+    {
+      "name": "#PartiuIF",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-partiuif"
+    },
+    {
+      "name": "FIC EAD",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-fic-ead"
+    },
+    {
+      "name": "FIC Presencial",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-fic-presencial"
+    },
+    {
+      "name": "INTEGRADO",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-integrado"
+    },
+    {
+      "name": "SUBSEQUENTE",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-subsequente"
+    },
+    {
+      "name": "PROEJA",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-proeja"
+    },
+    {
+      "name": "GRADUAÇÃO",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-graduacao"
+    },
+    {
+      "name": "PÓS-GRADUAÇÃO",
+      "level": "Pós-graduação",
+      "url": "https://carolina.ifma.edu.br/cursosofercidos/#tab-pos-graduacao"
+    }
+  ],
+  "48": [],
+  "49": [],
+  "52": [],
+  "53": [],
+  "55": [
+    {
+      "name": "Modalidade Integrado",
+      "level": "Técnico de nível médio",
+      "url": "https://presidentedutra.ifma.edu.br/cursosofertados/#tab-modalidade-integrado"
+    },
+    {
+      "name": "Modalidade Subsequente",
+      "level": "Técnico de nível médio",
+      "url": "https://presidentedutra.ifma.edu.br/cursosofertados/#tab-modalidade-subsequente"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Técnico de nível médio",
+      "url": "https://presidentedutra.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    },
+    {
+      "name": "Modalidade Integrado",
+      "level": "Pós-graduação",
+      "url": "https://presidentedutra.ifma.edu.br/cursosofertados/#tab-modalidade-integrado"
+    },
+    {
+      "name": "Modalidade Subsequente",
+      "level": "Pós-graduação",
+      "url": "https://presidentedutra.ifma.edu.br/cursosofertados/#tab-modalidade-subsequente"
+    },
+    {
+      "name": "Pós-Graduação",
+      "level": "Pós-graduação",
+      "url": "https://presidentedutra.ifma.edu.br/cursosofertados/#tab-pos-graduacao"
+    }
+  ]
+}
