@@ -1,0 +1,22 @@
+# Aplicado automaticamente pelo `docker compose` em desenvolvimento local
+# (mesclado com docker-compose.yml). Não é usado em produção/Portainer,
+# que só enxerga docker-compose.yml.
+services:
+  db:
+    ports:
+      - "5433:5432"
+
+  migrations:
+    volumes:
+      - .:/app
+
+  web:
+    volumes:
+      - .:/app
+
+  tailwind:
+    build: .
+    entrypoint: ["tailwindcss"]
+    command: ["-i", "./static_src/input.css", "-o", "./static/css/tailwind.css", "--watch=always"]
+    volumes:
+      - .:/app

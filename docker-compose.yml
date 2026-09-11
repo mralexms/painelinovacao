@@ -8,8 +8,6 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD não definido}
     volumes:
       - postgres-data:/var/lib/postgresql/data
-    ports:
-      - "5433:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 5s
@@ -19,8 +17,6 @@ services:
   migrations:
     build: .
     command: python manage.py migrate --noinput
-    volumes:
-      - .:/app
     environment:
       DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?DJANGO_SECRET_KEY não definido}
       DJANGO_DEBUG: ${DJANGO_DEBUG:-False}
@@ -37,8 +33,7 @@ services:
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:${DJANGO_PORT:-8013}
-    volumes:
-      - .:/app
+    restart: unless-stopped
     ports:
       - "${DJANGO_PORT:-8013}:${DJANGO_PORT:-8013}"
     environment:
@@ -58,13 +53,6 @@ services:
         condition: service_healthy
       migrations:
         condition: service_completed_successfully
-
-  tailwind:
-    build: .
-    entrypoint: ["tailwindcss"]
-    command: ["-i", "./static_src/input.css", "-o", "./static/css/tailwind.css", "--watch=always"]
-    volumes:
-      - .:/app
 
 volumes:
   postgres-data:

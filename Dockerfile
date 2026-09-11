@@ -24,3 +24,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
+
+# Compila o CSS do Tailwind já no build da imagem, para não depender
+# do bind mount de desenvolvimento (usado apenas em docker-compose.override.yml).
+RUN tailwindcss -i ./static_src/input.css -o ./static/css/tailwind.css --minify
