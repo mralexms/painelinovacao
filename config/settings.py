@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "eixos",
+    "planos_de_acao",
 ]
 
 MIDDLEWARE = [
