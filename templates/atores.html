@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block eyebrow %}Governança colaborativa{% endblock %}
+
+{% block content %}
+<div class="mb-7">
+  <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Governança colaborativa</span>
+  <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Atores e responsabilidades</h1>
+  <p class="text-ifma-muted max-w-2xl">A governança deve preservar a coordenação institucional e distribuir a execução com clareza.</p>
+</div>
+
+<div class="grid md:grid-cols-3 gap-4 mb-5">
+  <article class="bg-white border border-ifma-line rounded-2xl p-6" style="border-top:5px solid var(--color-ifma-navy)">
+    <span class="text-[10px] uppercase tracking-wide font-extrabold text-ifma-muted">Direção estratégica</span>
+    <h2 class="font-display font-bold text-lg text-ifma-navy mt-3 mb-2">Reitoria e instâncias superiores</h2>
+    <p class="text-ifma-muted text-sm">Aprovar prioridades, assegurar alinhamento institucional e remover barreiras estruturais.</p>
+  </article>
+  <article class="bg-white border border-ifma-line rounded-2xl p-6" style="border-top:5px solid var(--color-ifma-green)">
+    <span class="text-[10px] uppercase tracking-wide font-extrabold text-ifma-muted">Coordenação</span>
+    <h2 class="font-display font-bold text-lg text-ifma-navy mt-3 mb-2">Agência IFMA de Inovação</h2>
+    <p class="text-ifma-muted text-sm">Integrar os eixos, orientar fluxos, consolidar dados e apoiar a segurança jurídica.</p>
+  </article>
+  <article class="bg-white border border-ifma-line rounded-2xl p-6" style="border-top:5px solid var(--color-ifma-gold)">
+    <span class="text-[10px] uppercase tracking-wide font-extrabold text-ifma-muted">Execução territorial</span>
+    <h2 class="font-display font-bold text-lg text-ifma-navy mt-3 mb-2">Direções e equipes dos campi</h2>
+    <p class="text-ifma-muted text-sm">Mapear capacidades, articular atores, formular projetos e acompanhar entregas.</p>
+  </article>
+</div>
+
+<article class="bg-white border border-ifma-line rounded-2xl p-6 mb-5">
+  <div class="mb-6">
+    <span class="block font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green mb-1">Ecossistema</span>
+    <h2 class="font-display font-bold text-xl text-ifma-navy">Quatro hélices conectadas</h2>
+  </div>
+  <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+    <div class="bg-ifma-paper rounded-xl p-4"><b class="w-8 h-8 rounded-full bg-ifma-navy text-white grid place-items-center font-display font-extrabold text-xs">A</b><strong class="block text-ifma-navy mt-3 mb-1">Academia</strong><p class="text-xs text-ifma-muted">Conhecimento, talentos, infraestrutura e pesquisa aplicada.</p></div>
+    <div class="bg-ifma-paper rounded-xl p-4"><b class="w-8 h-8 rounded-full bg-ifma-navy text-white grid place-items-center font-display font-extrabold text-xs">P</b><strong class="block text-ifma-navy mt-3 mb-1">Poder público</strong><p class="text-xs text-ifma-muted">Desafios públicos, dados e ambientes de implementação.</p></div>
+    <div class="bg-ifma-paper rounded-xl p-4"><b class="w-8 h-8 rounded-full bg-ifma-navy text-white grid place-items-center font-display font-extrabold text-xs">M</b><strong class="block text-ifma-navy mt-3 mb-1">Mercado</strong><p class="text-xs text-ifma-muted">Demandas produtivas, validação, adoção e investimento.</p></div>
+    <div class="bg-ifma-paper rounded-xl p-4"><b class="w-8 h-8 rounded-full bg-ifma-navy text-white grid place-items-center font-display font-extrabold text-xs">S</b><strong class="block text-ifma-navy mt-3 mb-1">Sociedade</strong><p class="text-xs text-ifma-muted">Problemas, saberes, ativos e validação social.</p></div>
+  </div>
+</article>
+
+<div class="border-l-4 border-ifma-gold bg-amber-50/60 rounded-r-xl px-5 py-4">
+  <strong class="text-ifma-navy">Decisões ainda necessárias</strong>
+  <p class="text-sm text-slate-600 mt-1">Validar a instância coordenadora, a composição do comitê de priorização, os papéis das Pró-Reitorias e o fluxo de análise técnica, administrativa e jurídica.</p>
+</div>
+{% endblock %}

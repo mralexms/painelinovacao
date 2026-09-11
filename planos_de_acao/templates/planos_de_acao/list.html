@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load eixos_extras %}
+
+{% block eyebrow %}Execução{% endblock %}
+
+{% block content %}
+<div class="flex items-end justify-between gap-6 mb-7">
+  <div>
+    <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Execução</span>
+    <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Plano de ação consolidado</h1>
+    <p class="text-ifma-muted max-w-2xl">Carteira inicial proposta para detalhamento e validação pelos campi.</p>
+  </div>
+  <span class="text-xs font-bold text-ifma-amber-text bg-ifma-amber-soft rounded-full px-3 py-1.5 whitespace-nowrap self-center">dados a validar</span>
+</div>
+
+<div class="flex gap-2 overflow-x-auto pb-1 mb-5" role="group" aria-label="Filtrar ações por eixo">
+  <button type="button" data-filter="all" class="plano-filter active border border-ifma-line bg-ifma-navy text-white rounded-full px-3.5 py-2 text-xs font-bold whitespace-nowrap">Todos</button>
+  {% for eixo in eixos %}
+  <button type="button" data-filter="{{ eixo.codigo }}" class="plano-filter border border-ifma-line bg-white text-ifma-muted rounded-full px-3.5 py-2 text-xs font-bold whitespace-nowrap">{{ eixo.codigo }}</button>
+  {% endfor %}
+</div>
+
+<div class="border border-ifma-line rounded-2xl overflow-auto bg-white">
+  <table class="w-full min-w-[860px] border-collapse">
+    <thead>
+      <tr class="bg-ifma-paper">
+        <th class="text-left uppercase tracking-wider text-[10px] text-ifma-muted font-bold px-4 py-3.5">Eixo</th>
+        <th class="text-left uppercase tracking-wider text-[10px] text-ifma-muted font-bold px-4 py-3.5">Ação prioritária</th>
+        <th class="text-left uppercase tracking-wider text-[10px] text-ifma-muted font-bold px-4 py-3.5">Entregável</th>
+        <th class="text-left uppercase tracking-wider text-[10px] text-ifma-muted font-bold px-4 py-3.5">Liderança proposta</th>
+        <th class="text-left uppercase tracking-wider text-[10px] text-ifma-muted font-bold px-4 py-3.5">Horizonte</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for plano in planos %}
+      <tr data-axis="{{ plano.eixo.codigo }}" class="border-t border-ifma-line">
+        <td class="px-4 py-4">
+          <span class="inline-grid place-items-center rounded-md text-[11px] font-display font-extrabold px-2 py-1.5"
+                style="background:{{ plano.eixo.codigo|axis_color }}1f; color:{{ plano.eixo.codigo|axis_color }}">
+            {{ plano.eixo.codigo }}
+          </span>
+        </td>
+        <td class="px-4 py-4 text-sm font-bold text-ifma-ink">{{ plano.acao_prioritaria }}</td>
+        <td class="px-4 py-4 text-sm text-ifma-muted">{{ plano.entregavel }}</td>
+        <td class="px-4 py-4 text-sm text-ifma-muted">{{ plano.lideranca_proposta }}</td>
+        <td class="px-4 py-4 text-sm text-ifma-muted whitespace-nowrap">{{ plano.horizonte_inicio_meses }}–{{ plano.horizonte_fim_meses }} meses</td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="5" class="px-4 py-8 text-center text-ifma-muted">Nenhuma ação cadastrada ainda.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  document.querySelectorAll(".plano-filter").forEach((button) => {
+    button.addEventListener("click", () => {
+      document.querySelectorAll(".plano-filter").forEach((item) => {
+        item.classList.remove("active", "bg-ifma-navy", "text-white");
+        item.classList.add("bg-white", "text-ifma-muted");
+      });
+      button.classList.add("active", "bg-ifma-navy", "text-white");
+      button.classList.remove("bg-white", "text-ifma-muted");
+      const filter = button.dataset.filter;
+      document.querySelectorAll("tbody tr[data-axis]").forEach((row) => {
+        row.hidden = filter !== "all" && row.dataset.axis !== filter;
+      });
+    });
+  });
+</script>
+{% endblock %}

@@ -1,14 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ifma-navy: #101a33;
-  --color-ifma-navy-light: #1c2b4d;
-  --color-ifma-amber-soft: #fdf0c8;
-  --color-ifma-amber-text: #8a5a00;
+  --color-ifma-navy: #072a4a;
+  --color-ifma-navy-light: #0b3d66;
+  --color-ifma-blue: #176b87;
+  --color-ifma-green: #1c8d6e;
+  --color-ifma-gold: #c89b3c;
+  --color-ifma-ink: #172532;
+  --color-ifma-muted: #657583;
+  --color-ifma-line: #dfe7eb;
+  --color-ifma-paper: #f4f7f8;
+  --color-ifma-amber-soft: #fff4d9;
+  --color-ifma-amber-text: #8d681c;
+
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-slate-50 text-slate-900;
+    @apply bg-ifma-paper text-ifma-ink font-sans;
   }
 }

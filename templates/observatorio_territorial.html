@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block eyebrow %}Inteligência para decisão{% endblock %}
+
+{% block content %}
+<div class="flex items-end justify-between gap-6 mb-7">
+  <div>
+    <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Inteligência para decisão</span>
+    <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Observatório Territorial de Inovação</h1>
+    <p class="text-ifma-muted max-w-2xl">Dados organizados para definir prioridades, acompanhar a execução e avaliar impactos — não apenas para produzir estatísticas.</p>
+  </div>
+  <span class="text-xs font-bold text-ifma-amber-text bg-ifma-amber-soft rounded-full px-3 py-1.5 whitespace-nowrap self-center">painel conceitual</span>
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] items-center gap-2 bg-ifma-navy text-white rounded-2xl p-6 mb-5">
+  <div class="text-center"><span class="block text-[10px] text-emerald-300">01</span><strong class="block font-display font-bold text-base my-1">Coletar</strong><small class="block text-[10px] text-slate-300">campi e territórios</small></div>
+  <i class="hidden sm:block not-italic text-slate-400 text-center">→</i>
+  <div class="text-center"><span class="block text-[10px] text-emerald-300">02</span><strong class="block font-display font-bold text-base my-1">Analisar</strong><small class="block text-[10px] text-slate-300">lacunas e oportunidades</small></div>
+  <i class="hidden sm:block not-italic text-slate-400 text-center">→</i>
+  <div class="text-center"><span class="block text-[10px] text-emerald-300">03</span><strong class="block font-display font-bold text-base my-1">Decidir</strong><small class="block text-[10px] text-slate-300">prioridades e projetos</small></div>
+  <i class="hidden sm:block not-italic text-slate-400 text-center">→</i>
+  <div class="text-center"><span class="block text-[10px] text-emerald-300">04</span><strong class="block font-display font-bold text-base my-1">Avaliar</strong><small class="block text-[10px] text-slate-300">resultados e impactos</small></div>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3.5 mb-5">
+  {% for level in levels %}
+  <article class="bg-white border border-ifma-line rounded-2xl p-5">
+    <div class="flex items-center gap-2.5">
+      <span class="w-10 h-10 rounded-lg bg-slate-100 text-ifma-navy grid place-items-center font-display font-extrabold text-sm">{{ level.letra }}</span>
+      <div><small class="block text-[9px] uppercase tracking-wide text-ifma-muted">Nível {{ level.numero }}</small><h3 class="font-display font-bold text-base text-ifma-navy">{{ level.titulo }}</h3></div>
+    </div>
+    <p class="text-xs text-ifma-muted mt-3.5">{{ level.descricao }}</p>
+    <ul class="mt-3.5">
+      {% for item in level.itens %}
+      <li class="text-[11px] text-slate-600 py-1.5 border-t border-ifma-line">· {{ item }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="border-l-4 border-ifma-gold bg-amber-50/60 rounded-r-xl px-5 py-4">
+  <strong class="text-ifma-navy">Regra de evidência</strong>
+  <p class="text-sm text-slate-600 mt-1">Cada indicador deverá conter conceito, fórmula, fonte, periodicidade, responsável, linha de base e meta. Até a alimentação com dados institucionais, o Hub apresenta apenas a arquitetura de mensuração.</p>
+</div>
+{% endblock %}

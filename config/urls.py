@@ -4,7 +4,15 @@ from django.contrib.auth import views as auth_views
 from django.urls import include, path
 from django.views.static import serve as serve_static
 
-from .views import home, observatorio
+from .views import (
+    atores,
+    entregaveis,
+    estrategia,
+    home,
+    observatorio,
+    observatorio_territorial,
+    projetos,
+)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -15,7 +23,17 @@ urlpatterns = [
     ),
     path("logout/", auth_views.LogoutView.as_view(), name="logout"),
     path("", home, name="home"),
+    path("estrategia/", estrategia, name="estrategia"),
     path("eixos/", include("eixos.urls")),
+    path("planos-de-acao/", include("planos_de_acao.urls")),
+    path("projetos/", projetos, name="projetos"),
+    path("atores/", atores, name="atores"),
+    path("entregaveis/", entregaveis, name="entregaveis"),
+    path(
+        "observatorio-territorial/",
+        observatorio_territorial,
+        name="observatorio_territorial",
+    ),
     path("observatorio/", observatorio, name="observatorio"),
 ]
 

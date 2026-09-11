@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block eyebrow %}Portfólio{% endblock %}
+
+{% block content %}
+<div class="mb-7">
+  <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Portfólio</span>
+  <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Projetos estruturantes</h1>
+  <p class="text-ifma-muted max-w-2xl">Iniciativas que conectam os eixos e materializam a estratégia.</p>
+</div>
+
+<article class="bg-gradient-to-br from-ifma-navy to-[#0e5171] text-white rounded-[20px] p-8 grid lg:grid-cols-[1fr_1.25fr] gap-8 mb-5 shadow-[0_16px_40px_rgba(7,42,74,.18)]">
+  <div>
+    <span class="block font-display font-extrabold text-[11px] uppercase tracking-widest text-emerald-300 mb-2">Projeto integrador</span>
+    <h2 class="font-display font-extrabold text-2xl md:text-[29px] leading-tight mb-3">Framework de Inovação Territorial do IFMA</h2>
+    <p class="text-slate-300">Sistema permanente para identificar desafios, mobilizar competências e conduzir soluções à implementação, incubação, transferência ou escala.</p>
+    <div class="flex flex-wrap gap-2 mt-5">
+      <span class="text-[10px] font-bold border border-white/20 rounded-full px-2.5 py-1.5">Eixos 2, 3 e 4</span>
+      <span class="text-[10px] font-bold border border-white/20 rounded-full px-2.5 py-1.5">Quatro hélices</span>
+      <span class="text-[10px] font-bold border border-white/20 rounded-full px-2.5 py-1.5">Rede multicampi</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2.5">
+    <div class="bg-white/10 border border-white/15 rounded-xl p-4"><b class="block text-[10px] text-emerald-300">01</b><strong class="block mt-3 mb-1">Escutar</strong><small class="block text-[11px] text-slate-300">desafios e oportunidades</small></div>
+    <div class="bg-white/10 border border-white/15 rounded-xl p-4"><b class="block text-[10px] text-emerald-300">02</b><strong class="block mt-3 mb-1">Conectar</strong><small class="block text-[11px] text-slate-300">competências e atores</small></div>
+    <div class="bg-white/10 border border-white/15 rounded-xl p-4"><b class="block text-[10px] text-emerald-300">03</b><strong class="block mt-3 mb-1">Validar</strong><small class="block text-[11px] text-slate-300">soluções e valor</small></div>
+    <div class="bg-white/10 border border-white/15 rounded-xl p-4"><b class="block text-[10px] text-emerald-300">04</b><strong class="block mt-3 mb-1">Destinar</strong><small class="block text-[11px] text-slate-300">implementar, incubar ou escalar</small></div>
+  </div>
+</article>
+
+<div class="grid md:grid-cols-3 gap-4">
+  <article class="bg-white border border-ifma-line rounded-2xl p-6">
+    <span class="w-9.5 h-9.5 w-10 h-10 grid place-items-center rounded-lg bg-emerald-50 text-ifma-green text-lg">◉</span>
+    <h3 class="font-display font-bold text-lg text-ifma-navy mt-4 mb-2">Observatório Territorial</h3>
+    <p class="text-ifma-muted text-sm min-h-[60px]">Inteligência institucional para prioridades, decisões e avaliação de impacto.</p>
+    <footer class="border-t border-ifma-line pt-3.5 flex justify-between items-center text-[11px] font-bold text-ifma-muted">
+      <span>Eixo 2</span>
+      <a href="{% url 'observatorio_territorial' %}" class="text-ifma-green font-extrabold">Abrir →</a>
+    </footer>
+  </article>
+  <article class="bg-white border border-ifma-line rounded-2xl p-6">
+    <span class="w-10 h-10 grid place-items-center rounded-lg bg-emerald-50 text-ifma-green text-lg">⌂</span>
+    <h3 class="font-display font-bold text-lg text-ifma-navy mt-4 mb-2">Fábricas em Rede</h3>
+    <p class="text-ifma-muted text-sm min-h-[60px]">Integração das Fábricas de Inovação como rede de desenvolvimento e prototipagem.</p>
+    <footer class="border-t border-ifma-line pt-3.5 flex justify-between items-center text-[11px] font-bold text-ifma-muted">
+      <span>Eixos 3 e 4</span>
+      <span class="text-slate-400">Em estruturação</span>
+    </footer>
+  </article>
+  <article class="bg-white border border-ifma-line rounded-2xl p-6">
+    <span class="w-10 h-10 grid place-items-center rounded-lg bg-emerald-50 text-ifma-green text-lg">↗</span>
+    <h3 class="font-display font-bold text-lg text-ifma-navy mt-4 mb-2">Portfólio IFMA</h3>
+    <p class="text-ifma-muted text-sm min-h-[60px]">Vitrine qualificada de competências, serviços, ativos e soluções disponíveis.</p>
+    <footer class="border-t border-ifma-line pt-3.5 flex justify-between items-center text-[11px] font-bold text-ifma-muted">
+      <span>Eixos 1 e 5</span>
+      <span class="text-slate-400">Em estruturação</span>
+    </footer>
+  </article>
+</div>
+{% endblock %}

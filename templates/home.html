@@ -1,22 +1,141 @@
 {% extends "base.html" %}
 
-{% block eyebrow %}Execução{% endblock %}
+{% block eyebrow %}Política de Inovação <span class="text-slate-300 mx-1">/</span> Implementação{% endblock %}
 
 {% block content %}
-<h1 class="text-3xl font-semibold text-slate-900">Painel de Inovação IFMA</h1>
-<p class="mt-1 text-slate-500">Base do sistema com Tailwind CSS configurado.</p>
-
-<div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-  <div class="rounded-2xl border border-slate-200 bg-white p-6">
-    <p class="text-xs font-medium uppercase tracking-wide text-slate-400">Eixos estratégicos</p>
-    <p class="mt-2 text-3xl font-semibold text-slate-900">{{ total_eixos }}</p>
+<div class="flex flex-wrap items-end justify-between gap-6 mb-7">
+  <div>
+    <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Painel executivo</span>
+    <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Da política à entrega</h1>
+    <p class="text-ifma-muted max-w-2xl">Uma visão integrada para organizar capacidades, conectar territórios e transformar conhecimento em valor público.</p>
   </div>
-  <div class="rounded-2xl border border-slate-200 bg-white p-6">
-    <p class="text-xs font-medium uppercase tracking-wide text-slate-400">Ações no plano</p>
-    <p class="mt-2 text-3xl font-semibold text-slate-900">{{ total_planos }}</p>
-    <span class="mt-3 inline-flex items-center rounded-full bg-ifma-amber-soft px-3 py-1 text-xs font-medium text-ifma-amber-text">
-      dados a validar
-    </span>
-  </div>
+  <a href="{% url 'planos_de_acao:list' %}" class="shrink-0 bg-ifma-navy text-white rounded-lg px-5 py-3.5 font-bold text-sm whitespace-nowrap">
+    Ver plano consolidado <span class="text-ifma-green ml-1">→</span>
+  </a>
 </div>
+
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-3.5 mb-5">
+  <article class="relative overflow-hidden bg-white border border-ifma-line rounded-2xl p-5 pl-6">
+    <span class="absolute left-0 top-0 bottom-0 w-1 bg-slate-300"></span>
+    <span class="block text-xs font-bold text-ifma-muted">Eixos finalísticos</span>
+    <strong class="block font-display font-extrabold text-4xl text-ifma-navy my-3">{{ total_eixos }}</strong>
+    <span class="block text-xs text-ifma-muted">frentes de transformação</span>
+  </article>
+  <article class="relative overflow-hidden bg-white border border-ifma-line rounded-2xl p-5 pl-6">
+    <span class="absolute left-0 top-0 bottom-0 w-1 bg-slate-300"></span>
+    <span class="block text-xs font-bold text-ifma-muted">Dimensões transversais</span>
+    <strong class="block font-display font-extrabold text-4xl text-ifma-navy my-3">3</strong>
+    <span class="block text-xs text-ifma-muted">condições de execução</span>
+  </article>
+  <article class="relative overflow-hidden bg-white border border-ifma-line rounded-2xl p-5 pl-6">
+    <span class="absolute left-0 top-0 bottom-0 w-1 bg-slate-300"></span>
+    <span class="block text-xs font-bold text-ifma-muted">Entregáveis estruturantes</span>
+    <strong class="block font-display font-extrabold text-4xl text-ifma-navy my-3">9</strong>
+    <span class="block text-xs text-ifma-muted">produtos do primeiro ciclo</span>
+  </article>
+  <article class="relative overflow-hidden bg-white border border-ifma-line rounded-2xl p-5 pl-6">
+    <span class="absolute left-0 top-0 bottom-0 w-1 bg-ifma-gold"></span>
+    <span class="block text-xs font-bold text-ifma-muted">Horizonte inicial</span>
+    <strong class="block font-display font-extrabold text-4xl text-ifma-navy my-3">12</strong>
+    <span class="block text-xs text-ifma-muted">meses para implantação</span>
+  </article>
+</div>
+
+<div class="grid lg:grid-cols-[2fr_1fr] gap-4 mb-5">
+  <article class="bg-white border border-ifma-line rounded-2xl p-6 shadow-[0_12px_34px_rgba(9,42,70,.08)]">
+    <div class="flex items-start justify-between gap-4 mb-6">
+      <div>
+        <span class="block font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green mb-1">Lógica de implementação</span>
+        <h2 class="font-display font-bold text-xl text-ifma-navy">Jornada estratégica</h2>
+      </div>
+      <span class="text-[11px] font-bold text-ifma-green bg-emerald-50 rounded-full px-2.5 py-1.5 self-center whitespace-nowrap">visão sistêmica</span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] items-center gap-2">
+      <div class="text-center">
+        <b class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-ifma-navy text-xs mx-auto mb-2">01</b>
+        <span class="block font-extrabold text-ifma-navy">Preparar</span>
+        <small class="block text-xs text-ifma-muted">capacidades e processos</small>
+      </div>
+      <div class="hidden sm:block h-px w-8 bg-slate-300 mx-auto"></div>
+      <div class="text-center">
+        <b class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-ifma-navy text-xs mx-auto mb-2">02</b>
+        <span class="block font-extrabold text-ifma-navy">Conectar</span>
+        <small class="block text-xs text-ifma-muted">campus e território</small>
+      </div>
+      <div class="hidden sm:block h-px w-8 bg-slate-300 mx-auto"></div>
+      <div class="text-center">
+        <b class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-ifma-navy text-xs mx-auto mb-2">03</b>
+        <span class="block font-extrabold text-ifma-navy">Desenvolver</span>
+        <small class="block text-xs text-ifma-muted">projetos e soluções</small>
+      </div>
+      <div class="hidden sm:block h-px w-8 bg-slate-300 mx-auto"></div>
+      <div class="text-center">
+        <b class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 text-ifma-navy text-xs mx-auto mb-2">04</b>
+        <span class="block font-extrabold text-ifma-navy">Valorizar</span>
+        <small class="block text-xs text-ifma-muted">conhecimento e impacto</small>
+      </div>
+    </div>
+    <div class="grid sm:grid-cols-3 gap-2 mt-6 pt-4 border-t border-ifma-line">
+      <span class="text-center text-[11px] font-bold text-slate-600 bg-ifma-paper rounded-md px-2 py-2">Governança e segurança jurídica</span>
+      <span class="text-center text-[11px] font-bold text-slate-600 bg-ifma-paper rounded-md px-2 py-2">Financiamento e sustentabilidade</span>
+      <span class="text-center text-[11px] font-bold text-slate-600 bg-ifma-paper rounded-md px-2 py-2">Monitoramento e aprendizagem</span>
+    </div>
+  </article>
+
+  <article class="bg-white border border-ifma-line rounded-2xl p-6 shadow-[0_12px_34px_rgba(9,42,70,.08)]">
+    <span class="block font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green mb-1">Primeiro ciclo</span>
+    <h2 class="font-display font-bold text-xl text-ifma-navy mb-5">Prioridades de partida</h2>
+    <ol class="space-y-3">
+      <li class="flex gap-3 pb-3 border-b border-ifma-line">
+        <span class="shrink-0 w-7 h-7 rounded-lg bg-ifma-navy text-white grid place-items-center font-display font-bold text-xs">1</span>
+        <div><strong class="block text-sm text-ifma-navy">Instituir a governança</strong><small class="block text-xs text-ifma-muted mt-0.5">Definir coordenação, papéis e fluxo decisório.</small></div>
+      </li>
+      <li class="flex gap-3 pb-3 border-b border-ifma-line">
+        <span class="shrink-0 w-7 h-7 rounded-lg bg-ifma-navy text-white grid place-items-center font-display font-bold text-xs">2</span>
+        <div><strong class="block text-sm text-ifma-navy">Mapear capacidades e território</strong><small class="block text-xs text-ifma-muted mt-0.5">Produzir evidências para priorização.</small></div>
+      </li>
+      <li class="flex gap-3">
+        <span class="shrink-0 w-7 h-7 rounded-lg bg-ifma-navy text-white grid place-items-center font-display font-bold text-xs">3</span>
+        <div><strong class="block text-sm text-ifma-navy">Selecionar projetos-piloto</strong><small class="block text-xs text-ifma-muted mt-0.5">Testar o modelo em desafios concretos.</small></div>
+      </li>
+    </ol>
+  </article>
+</div>
+
+<article class="bg-white border border-ifma-line rounded-2xl p-6">
+  <div class="flex items-start justify-between gap-4 mb-6">
+    <div>
+      <span class="block font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green mb-1">Arquitetura</span>
+      <h2 class="font-display font-bold text-xl text-ifma-navy">Cinco eixos que produzem resultados</h2>
+    </div>
+    <a href="{% url 'eixos:list' %}" class="text-ifma-green font-extrabold text-sm whitespace-nowrap">Explorar eixos →</a>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-2.5">
+    <div class="min-h-[130px] rounded-xl p-4 flex flex-col border-t-4" style="border-color:#176b87;background:#176b8712">
+      <span class="font-display font-extrabold text-[11px] opacity-60" style="color:#176b87">01</span>
+      <strong class="font-display font-bold text-sm mt-4 mb-2" style="color:#176b87">Capacidades institucionais</strong>
+      <small class="mt-auto text-[11px] font-bold" style="color:#176b87">Preparar</small>
+    </div>
+    <div class="min-h-[130px] rounded-xl p-4 flex flex-col border-t-4" style="border-color:#1c8d6e;background:#1c8d6e12">
+      <span class="font-display font-extrabold text-[11px] opacity-60" style="color:#1c8d6e">02</span>
+      <strong class="font-display font-bold text-sm mt-4 mb-2" style="color:#1c8d6e">Inteligência territorial</strong>
+      <small class="mt-auto text-[11px] font-bold" style="color:#1c8d6e">Conectar</small>
+    </div>
+    <div class="min-h-[130px] rounded-xl p-4 flex flex-col border-t-4" style="border-color:#7b5ea7;background:#7b5ea712">
+      <span class="font-display font-extrabold text-[11px] opacity-60" style="color:#7b5ea7">03</span>
+      <strong class="font-display font-bold text-sm mt-4 mb-2" style="color:#7b5ea7">Pesquisa e soluções</strong>
+      <small class="mt-auto text-[11px] font-bold" style="color:#7b5ea7">Desenvolver</small>
+    </div>
+    <div class="min-h-[130px] rounded-xl p-4 flex flex-col border-t-4" style="border-color:#d17c35;background:#d17c3512">
+      <span class="font-display font-extrabold text-[11px] opacity-60" style="color:#d17c35">04</span>
+      <strong class="font-display font-bold text-sm mt-4 mb-2" style="color:#d17c35">Empreendedorismo</strong>
+      <small class="mt-auto text-[11px] font-bold" style="color:#d17c35">Empreender</small>
+    </div>
+    <div class="min-h-[130px] rounded-xl p-4 flex flex-col border-t-4" style="border-color:#b5485f;background:#b5485f12">
+      <span class="font-display font-extrabold text-[11px] opacity-60" style="color:#b5485f">05</span>
+      <strong class="font-display font-bold text-sm mt-4 mb-2" style="color:#b5485f">PI e transferência</strong>
+      <small class="mt-auto text-[11px] font-bold" style="color:#b5485f">Valorizar</small>
+    </div>
+  </div>
+</article>
 {% endblock %}

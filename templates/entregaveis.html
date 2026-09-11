@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block eyebrow %}Primeiro ciclo{% endblock %}
+
+{% block content %}
+<div class="mb-7">
+  <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Primeiro ciclo</span>
+  <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Entregáveis estruturantes</h1>
+  <p class="text-ifma-muted max-w-2xl">Nove produtos que tornam a estratégia verificável e replicável.</p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3.5">
+  {% for item in deliverables %}
+  <article class="bg-white border border-ifma-line rounded-2xl p-5 flex gap-3.5">
+    <span class="shrink-0 w-8.5 w-9 h-9 rounded-lg bg-ifma-navy text-white grid place-items-center font-display font-extrabold text-[11px]">{{ item.numero }}</span>
+    <div>
+      <h3 class="font-display font-bold text-base text-ifma-navy mb-1">{{ item.titulo }}</h3>
+      <p class="text-xs text-ifma-muted">{{ item.descricao }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

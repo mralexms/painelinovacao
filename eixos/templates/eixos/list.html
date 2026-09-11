@@ -1,28 +1,60 @@
 {% extends "base.html" %}
+{% load eixos_extras %}
 
-{% block eyebrow %}Eixos estratégicos{% endblock %}
+{% block eyebrow %}Arquitetura estratégica{% endblock %}
 
 {% block content %}
-<div>
-  <h1 class="text-3xl font-semibold text-slate-900">Eixos estratégicos</h1>
-  <p class="mt-1 text-slate-500">Estrutura da política de inovação do IFMA.</p>
+<div class="mb-7">
+  <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Arquitetura estratégica</span>
+  <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Eixos estratégicos</h1>
+  <p class="text-ifma-muted max-w-2xl">Cada eixo articula um objetivo, iniciativas prioritárias e um entregável central.</p>
 </div>
 
-<div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="grid md:grid-cols-2 gap-4 mb-5">
   {% for eixo in eixos %}
   <a href="{% url 'eixos:detail' eixo.codigo %}"
-     class="rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-slate-300 hover:shadow-sm">
-    <span class="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600">
-      {{ eixo.codigo }}
-    </span>
-    <h2 class="mt-3 text-lg font-semibold text-slate-900">{{ eixo.nome }}</h2>
-    <p class="mt-2 line-clamp-3 text-sm text-slate-500">{{ eixo.descricao }}</p>
-    <p class="mt-4 text-xs font-medium uppercase tracking-wide text-slate-400">
-      {{ eixo.total_planos }} {% if eixo.total_planos == 1 %}ação{% else %}ações{% endif %} no plano
-    </p>
+     class="relative bg-white border border-ifma-line rounded-2xl p-6 hover:shadow-md transition {% if forloop.last %}md:col-span-2{% endif %}"
+     style="border-top:5px solid {{ eixo.codigo|axis_color }}">
+    <div class="absolute right-6 top-5 font-display font-extrabold text-4xl opacity-15" style="color:{{ eixo.codigo|axis_color }}">{{ forloop.counter|stringformat:"02d" }}</div>
+    <span class="text-[10px] font-display font-extrabold tracking-widest" style="color:{{ eixo.codigo|axis_color }}">{{ eixo.codigo|axis_tag }}</span>
+    <h2 class="font-display font-bold text-xl text-ifma-navy mt-3 mb-2 pr-14">{{ eixo.nome }}</h2>
+    <p class="text-ifma-muted text-sm">{{ eixo.descricao }}</p>
+    <ul class="flex flex-wrap gap-1.5 mt-4 mb-5">
+      {% for item in eixo.codigo|axis_iniciativas %}
+      <li class="text-[11px] text-slate-600 bg-ifma-paper rounded-full px-2.5 py-1.5">{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <footer class="border-t border-ifma-line pt-4">
+      <span class="block text-[10px] uppercase tracking-wide text-ifma-muted">Entregável central</span>
+      <strong class="block text-sm mt-1" style="color:{{ eixo.codigo|axis_color }}">{{ eixo.codigo|axis_entregavel_central }}</strong>
+    </footer>
   </a>
   {% empty %}
-  <p class="text-slate-500">Nenhum eixo cadastrado ainda.</p>
+  <p class="text-ifma-muted">Nenhum eixo cadastrado ainda.</p>
   {% endfor %}
 </div>
+
+<article class="bg-white border border-ifma-line rounded-2xl p-6">
+  <div class="mb-6">
+    <span class="block font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green mb-1">Base comum</span>
+    <h2 class="font-display font-bold text-xl text-ifma-navy">Dimensões transversais</h2>
+  </div>
+  <div class="grid md:grid-cols-3 gap-3.5">
+    <div class="border border-ifma-line rounded-xl p-4.5 p-4">
+      <span class="font-display font-extrabold text-[11px] text-ifma-gold">01</span>
+      <strong class="block text-ifma-navy mt-2.5 mb-1.5">Governança, integridade e segurança jurídica</strong>
+      <p class="text-xs text-ifma-muted">Papéis, fluxos, instrumentos, riscos e compliance normativo.</p>
+    </div>
+    <div class="border border-ifma-line rounded-xl p-4">
+      <span class="font-display font-extrabold text-[11px] text-ifma-gold">02</span>
+      <strong class="block text-ifma-navy mt-2.5 mb-1.5">Financiamento e sustentabilidade</strong>
+      <p class="text-xs text-ifma-muted">Orçamento, parceiros, fomento, fundações e reinvestimento.</p>
+    </div>
+    <div class="border border-ifma-line rounded-xl p-4">
+      <span class="font-display font-extrabold text-[11px] text-ifma-gold">03</span>
+      <strong class="block text-ifma-navy mt-2.5 mb-1.5">Monitoramento e aprendizagem</strong>
+      <p class="text-xs text-ifma-muted">Metas, indicadores, impacto, lições e revisão periódica.</p>
+    </div>
+  </div>
+</article>
 {% endblock %}
