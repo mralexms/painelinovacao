@@ -29,11 +29,11 @@ services:
 
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:${DJANGO_PORT:-8013}
     volumes:
       - .:/app
     ports:
-      - "8000:8000"
+      - "${DJANGO_PORT:-8013}:${DJANGO_PORT:-8013}"
     env_file:
       - .env
     depends_on:
