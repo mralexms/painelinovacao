@@ -32,7 +32,12 @@ services:
 
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:${DJANGO_PORT:-8013}
+    # --noreload: evita um bug do autoreload do runserver que corrompe o
+    # cache de STATIC_URL quando FORCE_SCRIPT_NAME está definido (deploy em
+    # subpasta). --nostatic: estáticos são servidos por uma rota própria em
+    # config/urls.py, não pelo StaticFilesHandler automático (que também não
+    # lida corretamente com FORCE_SCRIPT_NAME).
+    command: python manage.py runserver --noreload --nostatic 0.0.0.0:${DJANGO_PORT:-8013}
     restart: unless-stopped
     ports:
       - "${DJANGO_PORT:-8013}:${DJANGO_PORT:-8013}"
@@ -41,6 +46,7 @@ services:
       DJANGO_DEBUG: ${DJANGO_DEBUG:-False}
       DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1}
       DJANGO_CSRF_TRUSTED_ORIGINS: ${DJANGO_CSRF_TRUSTED_ORIGINS:-}
+      DJANGO_FORCE_SCRIPT_NAME: ${DJANGO_FORCE_SCRIPT_NAME:-}
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD não definido}

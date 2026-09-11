@@ -13,6 +13,14 @@ DEBUG = config("DJANGO_DEBUG", default=False, cast=bool)
 ALLOWED_HOSTS = config("DJANGO_ALLOWED_HOSTS", default="", cast=Csv())
 CSRF_TRUSTED_ORIGINS = config("DJANGO_CSRF_TRUSTED_ORIGINS", default="", cast=Csv())
 
+# Suporte a deploy em subpasta (ex.: https://fabrica.ifma.edu.br/painel_inovacao/).
+# O proxy reverso deve remover o prefixo antes de repassar a requisição ao
+# container (ex.: location /painel_inovacao/ { proxy_pass http://web:8013/; }).
+# STATIC_URL abaixo permanece relativo ("static/") de propósito: o Django
+# prefixa automaticamente com este SCRIPT_NAME quando o valor não começa
+# com "/" (ver django.conf.Settings._add_script_prefix).
+FORCE_SCRIPT_NAME = config("DJANGO_FORCE_SCRIPT_NAME", default="") or None
+
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
