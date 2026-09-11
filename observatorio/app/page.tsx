@@ -104,7 +104,7 @@ export default function Home() {
   return <main className="app-shell">
     <aside className="sidebar">
       <div className="brand"><span>IF</span><div><strong>IFMA Inova</strong><small>Mapa de competências</small></div></div>
-      <nav aria-label="Navegação principal"><p>Estratégia</p><button className="nav-item"><LayoutDashboard size={18} /> Visão geral</button><button className="nav-item"><Network size={18} /> Eixos estratégicos</button><button className="nav-item active"><MapIcon size={18} /> Eixo 1 — Capacidades</button><p>Entregáveis</p><button className="nav-item active-soft"><Sparkles size={18} /> Mapa de Competências</button></nav>
+      <nav aria-label="Navegação principal"><p>Estratégia</p><a href="/" className="nav-item"><LayoutDashboard size={18} /> Visão geral</a><a href="/eixos/" className="nav-item"><Network size={18} /> Eixos estratégicos</a><a href="/eixos/E1/" className="nav-item active"><MapIcon size={18} /> Eixo 1 — Capacidades</a><p>Entregáveis</p><button className="nav-item active-soft"><Sparkles size={18} /> Mapa de Competências</button></nav>
       <div className="source-card"><CheckCircle2 size={16} /><div><strong>Fontes oficiais</strong><span>Integra + Portal IFMA</span></div></div>
     </aside>
     <section className="content">

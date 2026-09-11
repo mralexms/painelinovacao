@@ -4,7 +4,7 @@ from django.contrib.auth import views as auth_views
 from django.urls import include, path
 from django.views.static import serve as serve_static
 
-from .views import home
+from .views import home, observatorio
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -16,6 +16,7 @@ urlpatterns = [
     path("logout/", auth_views.LogoutView.as_view(), name="logout"),
     path("", home, name="home"),
     path("eixos/", include("eixos.urls")),
+    path("observatorio/", observatorio, name="observatorio"),
 ]
 
 if settings.DEBUG:

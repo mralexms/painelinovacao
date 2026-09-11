@@ -12,3 +12,8 @@ def home(request):
         "total_planos": PlanoDeAcao.objects.count(),
     }
     return render(request, "home.html", context)
+
+
+@login_required
+def observatorio(request):
+    return render(request, "observatorio.html")

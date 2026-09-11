@@ -6,7 +6,7 @@ NAV_ITEMS = [
     {"label": "Projetos", "url_name": None},
     {"label": "Atores e governança", "url_name": None},
     {"label": "Entregáveis", "url_name": None},
-    {"label": "Observatório", "url_name": None},
+    {"label": "Observatório", "url_name": "observatorio"},
 ]
 
 
