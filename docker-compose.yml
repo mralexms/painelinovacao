@@ -29,5 +29,12 @@ services:
       db:
         condition: service_healthy
 
+  tailwind:
+    build: .
+    entrypoint: ["tailwindcss"]
+    command: ["-i", "./static_src/input.css", "-o", "./static/css/tailwind.css", "--watch=always"]
+    volumes:
+      - .:/app
+
 volumes:
   postgres-data:

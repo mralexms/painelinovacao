@@ -12,6 +12,9 @@ db.sqlite3
 media/
 staticfiles/
 
+# Tailwind (artefato de build, gerado por `tailwindcss`)
+static/css/tailwind.css
+
 # Env
 .env
 .venv/

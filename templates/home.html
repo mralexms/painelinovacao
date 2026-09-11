@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block eyebrow %}Execução{% endblock %}
+
+{% block content %}
+<h1 class="text-3xl font-semibold text-slate-900">Painel de Inovação IFMA</h1>
+<p class="mt-1 text-slate-500">Base do sistema com Tailwind CSS configurado.</p>
+
+<div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+  <div class="rounded-2xl border border-slate-200 bg-white p-6">
+    <p class="text-xs font-medium uppercase tracking-wide text-slate-400">Eixos estratégicos</p>
+    <p class="mt-2 text-3xl font-semibold text-slate-900">{{ total_eixos }}</p>
+  </div>
+  <div class="rounded-2xl border border-slate-200 bg-white p-6">
+    <p class="text-xs font-medium uppercase tracking-wide text-slate-400">Ações no plano</p>
+    <p class="mt-2 text-3xl font-semibold text-slate-900">{{ total_planos }}</p>
+    <span class="mt-3 inline-flex items-center rounded-full bg-ifma-amber-soft px-3 py-1 text-xs font-medium text-ifma-amber-text">
+      dados a validar
+    </span>
+  </div>
+</div>
+{% endblock %}

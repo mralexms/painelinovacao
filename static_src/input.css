@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ifma-navy: #101a33;
+  --color-ifma-navy-light: #1c2b4d;
+  --color-ifma-amber-soft: #fdf0c8;
+  --color-ifma-amber-text: #8a5a00;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
