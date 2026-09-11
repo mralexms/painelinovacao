@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}IFMA Inova{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/tailwind.css' %}">
+  {% block extra_head %}{% endblock %}
 </head>
 <body class="h-full antialiased">
   <div class="flex min-h-screen">

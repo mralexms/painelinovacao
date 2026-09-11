@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowRight, BookOpen, Building2, CheckCircle2, FlaskConical, GraduationCap, LayoutDashboard, Map as MapIcon, Network, RefreshCw, Search, Sparkles, Users } from "lucide-react";
+import { ArrowRight, BookOpen, Building2, CheckCircle2, FlaskConical, GraduationCap, Network, RefreshCw, Search, Sparkles, Users } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, Cell, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -101,15 +101,7 @@ export default function Home() {
     return data.researchers.filter((item) => [item.name, item.largeArea, item.area, ...item.competencies].join(" ").toLocaleLowerCase("pt-BR").includes(term));
   }, [data, query]);
 
-  return <main className="app-shell">
-    <aside className="sidebar">
-      <div className="brand"><span>IF</span><div><strong>IFMA Inova</strong><small>Mapa de competências</small></div></div>
-      <nav aria-label="Navegação principal"><p>Estratégia</p><a href="/" className="nav-item"><LayoutDashboard size={18} /> Visão geral</a><a href="/eixos/" className="nav-item"><Network size={18} /> Eixos estratégicos</a><a href="/eixos/E1/" className="nav-item active"><MapIcon size={18} /> Eixo 1 — Capacidades</a><p>Entregáveis</p><button className="nav-item active-soft"><Sparkles size={18} /> Mapa de Competências</button></nav>
-      <div className="source-card"><CheckCircle2 size={16} /><div><strong>Fontes oficiais</strong><span>Integra + Portal IFMA</span></div></div>
-    </aside>
-    <section className="content">
-      <header className="topbar"><div><p>POLÍTICA DE INOVAÇÃO / EIXO 1</p><strong>Capacidades institucionais</strong></div><div className="status"><span /> dados públicos do IFMA</div></header>
-      <div className="workspace">
+  return <div className="workspace">
         <div className="page-heading"><div><span className="eyebrow">ENTREGÁVEL CENTRAL</span><h1>Mapa de Competências por Campus</h1><p>Cursos, pesquisadores, áreas, competências, laboratórios e produção organizados para apoiar decisões.</p></div><button className="refresh" onClick={() => load(campusId)} disabled={loading}><RefreshCw size={17} className={loading ? "spin" : ""} /> Atualizar</button></div>
         <section className="filter-panel" aria-label="Filtros do mapa"><div className="filter-main"><label>Campus</label><Select value={campusId} onValueChange={setCampusId}><SelectTrigger className="campus-select"><SelectValue placeholder="Selecione um campus" /></SelectTrigger><SelectContent>{(data?.campuses ?? []).map((campus) => <SelectItem key={campus.id} value={String(campus.id)}>{campus.nome}</SelectItem>)}</SelectContent></Select></div><div className="filter-search"><label htmlFor="researcher-search">Pesquisar no Top 10</label><div><Search size={17} /><input id="researcher-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Nome, área ou competência" /></div></div></section>
         {error ? <section className="error-state"><strong>Dados temporariamente indisponíveis</strong><p>{error}</p><button onClick={() => load(campusId)}>Tentar novamente <ArrowRight size={16} /></button></section> : loading || !data ? <DashboardSkeleton /> : <>
@@ -126,7 +118,5 @@ export default function Home() {
           <section className="chart-grid secondary"><article className="panel"><div className="panel-title"><div><span>INFRAESTRUTURA</span><h2>Laboratórios cadastrados</h2></div><Building2 size={20} /></div><div className="labs">{data.laboratories.length ? data.laboratories.map((lab) => <div key={lab.id}><FlaskConical size={18} /><div><strong>{lab.name}</strong><p>{lab.description || "Sem descrição informada."}</p>{lab.manager && <span>Responsável: {lab.manager}</span>}</div></div>) : <EmptyChart>Nenhum laboratório está cadastrado para este campus no Integra.</EmptyChart>}</div></article><article className="panel"><div className="panel-title"><div><span>PRODUÇÃO RECENTE</span><h2>Últimos registros</h2></div><BookOpen size={20} /></div><div className="productions">{data.recentProductions.slice(0, 6).map((item) => <div key={`${item.title}-${item.author}`}><span>{item.year}</span><div><strong>{item.title}</strong><p>{item.author} · {item.type}</p></div></div>)}</div></article></section>
           <footer className="data-footer"><div><CheckCircle2 size={17} /><span>Pesquisa e laboratórios: <a href="https://integra.ifma.edu.br/tecnologias/producoes" target="_blank" rel="noreferrer">Integra</a>. Cursos: <a href="https://portal.ifma.edu.br/cursosofertados/" target="_blank" rel="noreferrer">Portal IFMA</a>.</span></div><span>Atualizado em {new Date(data.sourceUpdatedAt).toLocaleString("pt-BR")}</span></footer>{!!data.warnings.length && <div className="warnings">{data.warnings.map((warning) => <p key={warning}>{warning}</p>)}</div>}
         </>}
-      </div>
-    </section>
-  </main>;
+  </div>;
 }

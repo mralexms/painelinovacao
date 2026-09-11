@@ -1,13 +1,15 @@
-{% load static %}<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapa de Competências · IFMA Inova</title>
-  <link rel="stylesheet" href="{% static 'observatorio/bundle.css' %}">
-</head>
-<body>
-  <div id="observatorio-root"></div>
-  <script type="module" src="{% static 'observatorio/bundle.js' %}"></script>
-</body>
-</html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Mapa de Competências · IFMA Inova{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'observatorio/bundle.css' %}">
+{% endblock %}
+
+{% block eyebrow %}Eixo 1 — Mapa de Competências{% endblock %}
+
+{% block content %}
+<div id="observatorio-root"></div>
+<script type="module" src="{% static 'observatorio/bundle.js' %}"></script>
+{% endblock %}
