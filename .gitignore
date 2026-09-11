@@ -4,6 +4,8 @@ __pycache__/
 .Python
 build/
 dist/
+# observatorio/build/ é código-fonte (não artefato de build) do app Node ali dentro
+!/observatorio/build/
 
 # Django
 *.log
