@@ -16,6 +16,17 @@ services:
       timeout: 5s
       retries: 5
 
+  migrations:
+    build: .
+    command: python manage.py migrate --noinput
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
@@ -28,6 +39,8 @@ services:
     depends_on:
       db:
         condition: service_healthy
+      migrations:
+        condition: service_completed_successfully
 
   tailwind:
     build: .
