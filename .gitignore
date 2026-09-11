@@ -26,3 +26,7 @@ postgres-data/
 .DS_Store
 .idea/
 .vscode/
+
+# Planilha de origem enviada na raiz (a cópia versionada fica em
+# propriedade_intelectual/data/, usada pela migração de importação)
+/PI_IFMA_Dashboard_Real.xlsx

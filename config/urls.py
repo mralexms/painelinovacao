@@ -26,6 +26,7 @@ urlpatterns = [
     path("estrategia/", estrategia, name="estrategia"),
     path("eixos/", include("eixos.urls")),
     path("planos-de-acao/", include("planos_de_acao.urls")),
+    path("propriedade-intelectual/", include("propriedade_intelectual.urls")),
     path("projetos/", projetos, name="projetos"),
     path("atores/", atores, name="atores"),
     path("entregaveis/", entregaveis, name="entregaveis"),

@@ -20,7 +20,10 @@ export default defineConfig({
     outDir: path.resolve(dirname, "dist-static"),
     emptyOutDir: true,
     rollupOptions: {
-      input: path.resolve(dirname, "index.static.html"),
+      input: {
+        observatorio: path.resolve(dirname, "index.static.html"),
+        pi: path.resolve(dirname, "index-pi.static.html"),
+      },
     },
   },
 });

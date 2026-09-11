@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Propriedade Intelectual · IFMA Inova{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'observatorio/assets/jsx-runtime-DYUnCEHS.css' %}">
+{% endblock %}
+
+{% block eyebrow %}Eixo 5 — Valorização{% endblock %}
+
+{% block content %}
+<div class="mb-7">
+  <span class="font-display font-extrabold text-[11px] uppercase tracking-widest text-ifma-green">Propriedade intelectual</span>
+  <h1 class="font-display font-extrabold text-3xl md:text-4xl text-ifma-navy mt-1 mb-2 tracking-tight">Produção intelectual do IFMA</h1>
+  <p class="text-ifma-muted max-w-2xl">Patentes, softwares, marcas e desenhos industriais depositados junto ao INPI — dados do NIT-IFMA.</p>
+</div>
+
+{{ page_data|json_script:"pi-data" }}
+<div id="pi-root"></div>
+<script type="module" src="{% static 'observatorio/assets/pi-BvDrYsGU.js' %}"></script>
+
+{% if recentes %}
+<article class="panel table-panel mt-5">
+  <div class="panel-title"><div><span>REGISTROS</span><h2>Depósitos mais recentes</h2></div></div>
+  <table class="w-full text-sm">
+    <thead>
+      <tr class="text-left border-b border-ifma-line">
+        <th class="py-2 pr-4 text-[10px] uppercase tracking-wider text-ifma-muted font-bold">Tipo</th>
+        <th class="py-2 pr-4 text-[10px] uppercase tracking-wider text-ifma-muted font-bold">Título</th>
+        <th class="py-2 pr-4 text-[10px] uppercase tracking-wider text-ifma-muted font-bold">Campus</th>
+        <th class="py-2 pr-4 text-[10px] uppercase tracking-wider text-ifma-muted font-bold">Status</th>
+        <th class="py-2 text-[10px] uppercase tracking-wider text-ifma-muted font-bold">Depósito</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in recentes %}
+      <tr class="border-b border-ifma-line last:border-0">
+        <td class="py-2.5 pr-4 text-ifma-muted whitespace-nowrap">{{ r.tipo }}</td>
+        <td class="py-2.5 pr-4 font-bold text-ifma-ink">{{ r.titulo|truncatechars:70 }}</td>
+        <td class="py-2.5 pr-4 text-ifma-muted whitespace-nowrap">{{ r.campus }}</td>
+        <td class="py-2.5 pr-4 text-ifma-muted whitespace-nowrap">{{ r.status }}</td>
+        <td class="py-2.5 text-ifma-muted whitespace-nowrap">{{ r.data_deposito|date:"d/m/Y" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</article>
+{% endif %}
+{% endblock %}

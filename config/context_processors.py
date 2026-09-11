@@ -8,6 +8,7 @@ NAV_ITEMS = [
     {"label": "Entregáveis", "url_name": "entregaveis", "icon": "✓"},
     {"label": "Observatório Territorial", "url_name": "observatorio_territorial", "icon": "⌁"},
     {"label": "Mapa de Competências", "url_name": "observatorio", "icon": "◈"},
+    {"label": "Propriedade Intelectual", "url_name": "propriedade_intelectual:dashboard", "icon": "©"},
 ]
 
 

@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "eixos",
     "planos_de_acao",
+    "propriedade_intelectual",
 ]
 
 MIDDLEWARE = [
