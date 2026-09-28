@@ -13,7 +13,7 @@ type AreaDatum = { name: string; value: number };
 type Researcher = { name: string; slug: string; publications: number; largeArea: string; area: string; competencies: string[] };
 type Laboratory = { id: number; name: string; description: string; manager?: string | null };
 type Course = { name: string; level: string; url?: string };
-type Production = { nomeCompleto: string; slug: string; titulo: string; ano: string; tipo: string; tipoProducao: string };
+type Production = { nomeCompleto: string; slug: string; titulo: string | null; ano: string; tipo: string; tipoProducao: string };
 type DashboardData = {
   campus: Campus; campuses: Campus[]; sourceUpdatedAt: string; sampleSize: number;
   totals: { technical: number; scientific: number; laboratories: number; researchers: number; courses: number };
@@ -39,7 +39,7 @@ const RULES = [
   ["Linguística, Letras e Artes", "Linguagens e artes", ["produção cultural", "linguagens", "comunicação"], ["lingu", "liter", "arte", "comunic", "narrativa", "musica", "teatro", "audiovisual"]],
 ] as const;
 
-const normalize = (value = "") => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR");
+const normalize = (value?: string | null) => (value ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR");
 function classify(title: string) {
   const normalized = normalize(title);
   const match = RULES.map((rule) => ({ rule, score: rule[3].filter((term) => normalized.includes(term)).length })).sort((a, b) => b.score - a.score)[0];
@@ -65,7 +65,7 @@ async function buildDashboard(campusId: number): Promise<DashboardData> {
   const courses = (coursesByCampus as Record<string, Course[]>)[String(campusId)] ?? [];
   const warnings = ["Grandes áreas, áreas e competências são inferências temáticas e devem ser validadas institucionalmente."];
   if ((technical[0]?.total ?? 0) > 500 || (scientific[0]?.total ?? 0) > 500) warnings.unshift("Ranking e classificação calculados sobre as 500 produções mais recentes de cada categoria; os totais exibem todo o acervo.");
-  return { campus, campuses, sourceUpdatedAt: new Date().toISOString(), sampleSize: productions.length, totals: { technical: technical[0]?.total ?? 0, scientific: scientific[0]?.total ?? 0, laboratories: labItems.length, researchers: people.size, courses: courses.length }, researchers, largeAreas: count(classified.map((item) => item.classification.largeArea)).slice(0, 8), areas: count(classified.map((item) => item.classification.area)).slice(0, 10), competencies: count(classified.flatMap((item) => item.classification.competencies)).slice(0, 20), courses, laboratories: labItems.map((lab: { id: number; nome: string; descricao?: string; nomeResponsavel?: string }) => ({ id: lab.id, name: lab.nome, description: lab.descricao ?? "", manager: lab.nomeResponsavel })), recentProductions: productions.slice(0, 12).map((item) => ({ title: item.titulo, author: item.nomeCompleto, year: item.ano, type: item.tipo, category: item.tipoProducao })), warnings };
+  return { campus, campuses, sourceUpdatedAt: new Date().toISOString(), sampleSize: productions.length, totals: { technical: technical[0]?.total ?? 0, scientific: scientific[0]?.total ?? 0, laboratories: labItems.length, researchers: people.size, courses: courses.length }, researchers, largeAreas: count(classified.map((item) => item.classification.largeArea)).slice(0, 8), areas: count(classified.map((item) => item.classification.area)).slice(0, 10), competencies: count(classified.flatMap((item) => item.classification.competencies)).slice(0, 20), courses, laboratories: labItems.map((lab: { id: number; nome: string; descricao?: string; nomeResponsavel?: string }) => ({ id: lab.id, name: lab.nome, description: lab.descricao ?? "", manager: lab.nomeResponsavel })), recentProductions: productions.slice(0, 12).map((item) => ({ title: item.titulo || "Produção sem título", author: item.nomeCompleto, year: item.ano, type: item.tipo, category: item.tipoProducao })), warnings };
 }
 
 function Metric({ icon: Icon, label, value, detail }: { icon: typeof Users; label: string; value: number; detail: string }) {
